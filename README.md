@@ -11,6 +11,8 @@ __Mind:__ _Numbering 4.6 in the title reflects that this variant shall implement
 
 __Presentation Mode:__ Targeted classroom environment, time restriction (time boxed presentation)
 
+__Code Breaker__ is a synonym for a puzzle also known as [_Bulls and Cows_](http://en.wikipedia.org/wiki/Bulls_and_cows). The project hosted here implements this as an application. Nonetheless the objectives of the project are tightly focused on the related underlying development process and the process implementation as a proof of concept and case study described as follows.
+
 Main Objectives
 ---------------
 
@@ -31,4 +33,4 @@ More Objectives
 * Make the application resolution aware (Optimization on small screen resolutions and high Desktop resolutions).
 * Demonstrate internationalization (i18n) through DOM (Document Object Model) modification instead of duplicating webpages using localization (l10n) per language setting.
 
-All logos, brands, and trademarks mentioned belong to their respective owners.
+_All logos, brands, and trademarks mentioned belong to their respective owners._
