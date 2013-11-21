@@ -27,10 +27,21 @@ More Objectives
 ---------------
 
 * Demonstrate how the code can be integrated in an application context.
-* Make the same application run on a range of target mobile devices (FxOs, Android, IOS, Blackberry devices).
+* Make the same application run on a range of target mobile devices (FxOs, Android, iOS, Blackberry devices).
 * Allow the User Interface / Human Machine Interface to process both Touch Event and Mouse Event types to support different device classes (Desktop systems, Tablets, Mobile phones).
 * Closely bind unit tests / regression tests to application to run the tests from inside the application directly on target systems on-the-fly.
 * Make the application resolution aware (Optimization on small screen resolutions and high Desktop resolutions).
 * Demonstrate internationalization (i18n) through DOM (Document Object Model) modification instead of duplicating webpages using localization (l10n) per language setting.
+
+Contributors / Authors
+----------------------
+
+<table>
+  <tr>
+    <td><img height="265" ondragstart="return false;" alt="Oliver Merkel, Creative Commons License, This image is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License." src="html5/src/img/oliver.jpg" /></td>
+    <td><p>Oliver Merkel,<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">This image</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.</p>
+    </td>
+  </tr>
+</table>
 
 _All logos, brands, and trademarks mentioned belong to their respective owners._
