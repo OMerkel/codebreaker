@@ -1,4 +1,3 @@
-
 _Since everybody was Kung Fu fighting,_  
 _those jerks were fast as lightning..._
 
@@ -7,7 +6,15 @@ Code Breaker 4.6
 
 __Keywords:__ _Coding Dojo, Kata, Code Breaker, TDD (Test Driven Development), BDD (Behavior Driven Development), Jasmine, QUnit, JQuery, JQuery Mobile, Firefox OS (FxOs), Mobile Devices, HTML5, CSS, Javascript, i18n, l10n, resolution awareness, Touch Events vs. Mouse Events_
 
-__Mind:__ _Numbering 4.6 in the title reflects that this variant shall implement secret codes of size four digits. Each digit is selected from a range of six values allowed for the guess as soon as a full application is implemented. The intended class to compare a guess towards the secret code is allowed not to perform range checks. This aspect is typically neglected in Codebreaker Kata runs of Coding Dojos performed._
+__Mind:__ _Numbering 4.6 in the title reflects that this variant shall implement secret codes of size four digits. Each digit is selected from a range of six values allowed for the guess as soon as a full application is implemented._
+<pre>
+function isValid(guess) {
+  var codePattern=new RegExp("^[a-f]{4}");
+  return codePattern.test(guess);
+}
+</pre>
+_The intended class to compare a guess towards the secret code is allowed not to perform range checks. This aspect is typically neglected in Codebreaker Kata runs of Coding Dojos performed._
+
 
 __Presentation Mode:__ Targeted classroom environment, time restriction (time boxed presentation)
 
