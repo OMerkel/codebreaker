@@ -6,7 +6,7 @@ Code Breaker 4.6
 
 __Keywords:__ _Coding Dojo, Kata, Code Breaker, TDD (Test Driven Development), BDD (Behavior Driven Development), Jasmine, QUnit, JQuery, JQuery Mobile, Firefox OS (FxOs), Mobile Devices, HTML5, CSS, Javascript, i18n, l10n, resolution awareness, Touch Events vs. Mouse Events_
 
-__Mind:__ _Numbering scheme_ __4.6__ _in the title reflects that this variant shall implement secret codes of size __four__ digits. Each digit is selected from a range of __six__ values allowed for the guess as soon as a full application is implemented._
+__Mind:__ _Numbering scheme_ __4.6__ _in the title reflects that this variant shall implement secret codes of size_ __four__ _digits. Each digit is selected from a range of_ __six__ _values allowed for the guess as soon as a full application is implemented._
 <pre>
 function isValid(guess) {
   var codePattern=new RegExp("^[a-f]{4}");
