@@ -42,7 +42,7 @@ More Objectives
 * Make the application resolution aware (Optimization on small screen resolutions and high Desktop resolutions).
 * Demonstrate internationalization (i18n) through DOM (Document Object Model) modification instead of duplicating webpages using localization (l10n) per language setting.
 
-_The RSpec Book_ proposes to mock a command line user interface. This is supposed to enable the developer to write high level behavior tests from an end user's point of view. _Code Breaker 4.6_ could surely mock a HMI (Human Machine Interface) in a similar way for the plain vanilla HMI and the JQuery Mobile HMI. Anyway this is avoided and the assumption is that when working on these objectives a different environment is available as before (when focusing on main objectives). Developing both the plain vanilla HMI and the JQuery Mobile HMI is done in a non test driven approach. Still the underlying core business logic is developed on BDD. This is done as a base for discussion on mixing BDD with traditional development scenarios. Discussion subjects might include efficiency of development, quality of overall product code and communication aspects of different teams or team members and how do they possibly benefit from each other here.
+_The RSpec Book_ proposes to mock a command line user interface. This is supposed to enable the developer to write high level behavior tests from an end user's point of view. _Code Breaker 4.6_ could surely mock an HMI (Human Machine Interface) in a similar way for the plain vanilla HMI and the JQuery Mobile HMI. Anyway this is avoided and the assumption is that when working on these objectives a different environment is available as before (when focusing on main objectives). Developing both the plain vanilla HMI and the JQuery Mobile HMI is done in a non test driven approach. Still the underlying core business logic is developed on BDD. This is done as a base for discussion on mixing BDD with traditional development scenarios. Discussion subjects might include efficiency of development, quality of overall product code and communication aspects of different teams or team members and how do they possibly benefit from each other here.
 
 Consider that this might occur in your project team because
 
@@ -59,7 +59,7 @@ Consider that this might occur in your project team because
 
 In such a suboptimal scenario the listed objectives above shall be reached. Discussion shall be how the team can still leave traditional development processes and methodology softly over time. To discuss differences and limitations a simplified HMI (plain vanilla design) and a complex graphical HMI including third party code with additional functionality is implemented.
 
-Anyway enjoy the Code Breaker 4.6 !
+Anyway enjoy the final Code Breaker 4.6 application!
 
 Contributors / Authors
 ----------------------
