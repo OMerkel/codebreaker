@@ -6,14 +6,14 @@ Code Breaker 4.6
 
 __Keywords:__ _Coding Dojo, Kata, Code Breaker, TDD (Test Driven Development), BDD (Behavior Driven Development), Jasmine, QUnit, JQuery, JQuery Mobile, Firefox OS (FxOs), Mobile Devices, HTML5, CSS, Javascript, i18n, l10n, resolution awareness, Touch Events vs. Mouse Events_
 
-__Mind:__ _Numbering 4.6 in the title reflects that this variant shall implement secret codes of size four digits. Each digit is selected from a range of six values allowed for the guess as soon as a full application is implemented._
+__Mind:__ _Numbering scheme __4.6__ in the title reflects that this variant shall implement secret codes of size __four__ digits. Each digit is selected from a range of __six__ values allowed for the guess as soon as a full application is implemented._
 <pre>
 function isValid(guess) {
   var codePattern=new RegExp("^[a-f]{4}");
   return codePattern.test(guess);
 }
 </pre>
-_The intended class to compare a guess towards the secret code is allowed not to perform range checks. This aspect is typically neglected in Codebreaker Kata runs of Coding Dojos performed._
+_It is intended to implement a class to compare a guess towards the secret code. The class is allowed not to perform range checks. Which means that guesses might exist containing characters valued out of range. This aspect of range checking is typically neglected in Codebreaker Kata runs of Coding Dojos performed._
 
 
 __Presentation Mode:__ Targeted classroom environment, time restriction (time boxed presentation)
@@ -23,12 +23,12 @@ __Code Breaker__ is a synonym for a puzzle also known as [_Bulls and Cows_](http
 Main Objectives
 ---------------
 
-It is intended to demonstrate that BDD (__Behavior Driven Development__) or more general TDD (__Test Driven Development__) is not a matter of framework selection. Thesis is that BDD or TDD approach is only weakly supported by the framework. It is more a matter of test specification mapping architecture constraints to decide whether general testing or behavior is driving the development process. Therefore we run the Codebreaker Kata twice or in parallel using a BDD approach
+It is intended to demonstrate that BDD (__Behavior Driven Development__) or more general TDD (__Test Driven Development__) clearly is not a matter of framework selection. Thesis is that BDD or TDD approach is only weakly supported by the framework. The behavior of a system describes an architectural aspect visible from outside the system. So BDD is more a matter of the test specification mapping the architecture constraints. This mapping reflects whether general testing or behavior is driving the development process. Therefore we run the Codebreaker Kata twice or in parallel using a BDD approach
 
 * in __BDD Jasmine framework__ and
 * in __TDD QUnit framework__
 
-It is expected that each framework allows to formulate similar tests. Assumption is that no blockers are coming up root caused by selection of the framework.
+It is expected that each framework allows to formulate similar tests. Assumption is that no related blockers are coming up being root caused by selection of the framework.
 
 More Objectives
 ---------------
