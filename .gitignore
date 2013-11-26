@@ -6,3 +6,5 @@
 /html5/src/bdd-jasmine.html
 /html5/src/bdd-qunit.html
 /html5/src/js/jasmine-wrapper.js
+/html5/src/js/qunit-spec/secret_spec.js
+/html5/src/js/jasmine-spec/secret_spec.js
