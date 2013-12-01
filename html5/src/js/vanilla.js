@@ -20,8 +20,11 @@ function newGame() {
 function renderLog() {
   var outLog = [];
   for( var entry in log ) {
-    var result = secret.compare(log[log.length-1-entry]);
-    outLog[outLog.length] = log[log.length-1-entry] + ' &gt; ' + result;
+    var guess = log[log.length-1-entry];
+    var result = secret.compare(guess);
+    outLog[outLog.length] = guess.replace(/(.)/g,
+      '<span style="display: inline-block; text-align: center; width: 10px;">$1<\/span>') +
+      ' &gt; ' + result;
   }
   var element = document.getElementById('log');
   element.innerHTML = outLog.join('<br />');
