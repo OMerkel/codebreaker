@@ -1,15 +1,23 @@
 _Since everybody was Kung Fu fighting,_  
 _those jerks were fast as lightning..._
 
-Code Breaker 4.6
-================
+Code Breaker 4.6 / 5.10
+=======================
 
 __Keywords:__ _Coding Dojo, Kata, Code Breaker, TDD (Test Driven Development), BDD (Behavior Driven Development), Jasmine, QUnit, JQuery, JQuery Mobile, Firefox OS (FxOs), Mobile Devices, HTML5, CSS, Javascript, i18n, l10n, resolution awareness, Touch Events vs. Mouse Events_
 
-__Mind:__ _Numbering scheme_ __4.6__ _in the title reflects that this variant shall implement secret codes of size_ __four__ _digits. Each digit is selected from a range of_ __six__ _values allowed for the guess as soon as a full application is implemented._
+__Mind:__
+* _Numbering scheme_ __4.6__ _in the title reflects that this variant shall implement secret codes of size_ __four__ _digits. Each digit is selected from a range of_ __six__ _values allowed for the guess._
 <pre>
 function isValid(guess) {
   var codePattern=new RegExp("^[a-f]{4}");
+  return codePattern.test(guess);
+}
+</pre>
+* _Numbering scheme_ __5.10__ _in the title reflects that this variant shall implement secret codes of size_ __five__ _digits. Each digit is selected from a range of_ __ten__ _values allowed for the guess._
+<pre>
+function isValid(guess) {
+  var codePattern=new RegExp("^[a-j]{5}");
   return codePattern.test(guess);
 }
 </pre>
@@ -59,7 +67,7 @@ Consider that this might occur in your project team because
 
 In such a suboptimal scenario the listed objectives above shall be reached. Discussion shall be how the team can still benefit in migrating from traditional development processes and methodology softly over time. To discuss differences and limitations a simplified HMI (plain vanilla design) and a complex graphical HMI including third party code with additional functionality is implemented.
 
-Anyway enjoy the final Code Breaker 4.6 application!
+Anyway enjoy the final Code Breaker 4.6 and Code Breaker 5.10 application variants!
 
 Contributors / Authors
 ----------------------
