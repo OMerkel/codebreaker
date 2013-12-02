@@ -1,0 +1,10 @@
+body { background-color: #000; color: #eee; font-family: sans-serif, Arial, Helvetica; }
+h3 { background-color: #ccc; color: #444; padding: 2px 6px 2px 6px; border-radius: 6px; }
+button { border-radius: 10px; }
+input { border-radius: 6px; padding: 0px 4px 0px 4px; }
+figure { padding: 5px; margin: 0px 0px 5px 0px; float: left; border: 1px solid #cccccc; border-radius: 9px; }
+figure img { border-radius: 7px 7px 0 0; opacity: 1.0; }
+figure figcaption { padding: 2px 4px 2px 4px; background-color: #666; color: #fff;
+  font-style: italic; border-radius: 0 0 7px 7px; opacity: 0.8; font-size: 60%; }
+figure figcaption a { color: #ccf; )
+caption { color:#fff; background-color:#111; opacity:0.8; border-radius: 20px 20px 0 0; }
