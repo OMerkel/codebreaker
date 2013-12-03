@@ -4,7 +4,7 @@ Logos and trademarks belong to their respective owners.
 The MIT License (MIT)
 
 Copyright (c) 2013, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
-Code Breaker 4.6
+Code Breaker 5.10
 
 Contributors:
 * Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de

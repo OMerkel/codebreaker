@@ -1,7 +1,7 @@
 {
 	"version": "1.0",
-	"name": "CBreaker4.6",
-	"description": "CodeBreaker4.6 Vanilla",
+	"name": "CBreaker5.10",
+	"description": "CodeBreaker5.10 Vanilla",
 	"launch_path": "/intro.html",
 	"icons": {
 		"16": "/img/icons/codebreaker-vanilla-16.png",

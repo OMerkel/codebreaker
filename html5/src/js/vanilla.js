@@ -13,7 +13,7 @@ elementNew.onclick = newGame;
 
 function newGame() {
   log = [];
-  secret = new Secret((new SecretGenerator(4, 6)).secret);
+  secret = new Secret((new SecretGenerator(5, 10)).secret);
   renderLog();
 }
 
@@ -40,6 +40,6 @@ function check() {
 }
 
 function isValid(guess) {
-  var codePattern=new RegExp("^[a-f]{4}");
+  var codePattern=new RegExp("^[a-j]{5}");
   return codePattern.test(guess);
 }
