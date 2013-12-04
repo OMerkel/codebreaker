@@ -1,0 +1,23 @@
+CACHE MANIFEST
+# v1.0
+/AUTHORS
+/css/style.css
+/img/icons/codebreaker-vanilla-120.png
+/img/icons/codebreaker-vanilla-128.png
+/img/icons/codebreaker-vanilla-16.png
+/img/icons/codebreaker-vanilla-256.png
+/img/icons/codebreaker-vanilla-32.png
+/img/icons/codebreaker-vanilla-48.png
+/img/icons/codebreaker-vanilla-60.png
+/img/icons/codebreaker-vanilla-90.png
+/img/icons/favicon.ico
+/img/cc-by-nc-nd.png
+/img/cc-by-sa.png
+/img/oliver.jpg
+/intro.html
+/js/secret.js
+/js/secretgenerator.js
+/js/vanilla.js
+/LICENSE
+/MIT-LICENSE.txt
+/vanilla.html
