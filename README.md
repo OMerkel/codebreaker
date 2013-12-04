@@ -69,6 +69,19 @@ In such a suboptimal scenario the listed objectives above shall be reached. Disc
 
 Anyway enjoy the final Code Breaker 4.6 and Code Breaker 5.10 application variants!
 
+Online Usage
+------------
+
+Click icons for direct online usage
+
+| <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html"><img height="128" alt="Start Code Breaker 4.6 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html"><img height="128" alt="Start Code Breaker 5.10 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> |
+| --- | --- |
+| <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html">Start Code Breaker 4.6 Vanilla online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html">Start Code Breaker 5.10 Vanilla online</a> |
+
+* check https://marketplace.firefox.com (Code Breaker 4.6 is currently submitted but still needs approval, December 4th, 2013)
+
+Tested to run on Firefox Desktop (Windows and Linux), Firefox OS (Geeksphone Keon, Geeksphone Peek), Firefox for Android (Tablet and Phone).
+
 Contributors / Authors
 ----------------------
 
