@@ -80,7 +80,7 @@ Click icons for direct online usage
 
 * check https://marketplace.firefox.com (Code Breaker 4.6 is currently submitted but still needs approval, December 4th, 2013)
 
-Tested to run on Firefox Desktop (Windows and Linux), Firefox OS (Geeksphone Keon, Geeksphone Peek), Firefox for Android (Tablet and Phone).
+Tested to run on Firefox Desktop (Windows and Linux), Firefox OS (Geeksphone Keon, Geeksphone Peak), Firefox for Android (Tablet and Phone).
 
 Contributors / Authors
 ----------------------
