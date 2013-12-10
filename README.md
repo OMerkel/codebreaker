@@ -36,7 +36,9 @@ Main Objectives
 It is intended to demonstrate that BDD (__Behavior Driven Development__) or more general TDD (__Test Driven Development__) clearly is not a matter of framework selection. Thesis is that BDD or TDD approach is only weakly supported by the framework. The _behavior_ of a system describes an architectural aspect visible from outside the system. So BDD is more a matter of the test specification mapping the architecture constraints. This mapping reflects whether general testing or behavior is driving the development process. Therefore we run the Codebreaker Kata twice or in parallel using just a BDD approach
 
 * in __BDD Jasmine framework__ and
+    * see bdd-jasmine.html in [releases/tag/main_objectives_reached](https://github.com/OMerkel/codebreaker/releases/tag/main_objectives_reached) 
 * in __TDD QUnit framework__, too.
+    * see bdd-qunit.html in [releases/tag/main_objectives_reached](https://github.com/OMerkel/codebreaker/releases/tag/main_objectives_reached) 
 
 It is expected that each framework allows to formulate similar tests. Assumption is that no related blockers are coming up being root caused by selection of the framework.
 
@@ -44,7 +46,17 @@ More Objectives
 ---------------
 
 * Demonstrate how the code can be integrated in an application context.
-* Make the same application run on a range of target mobile devices (FxOs, Android, iOS, Blackberry devices).
+    * see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
+        * online version [Code Breaker 4.6 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
+        * published in [Firefox Marketplace](https://marketplace.firefox.com/app/cbreaker46)
+    * see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
+        *  online version [Code Breaker 5.10 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
+* Make the same application run on a range of target mobile devices (FxOs, Android, iOS, Blackberry, Windows Phone devices).
+    * see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
+        * online version [Code Breaker 4.6 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
+        * published in [Firefox Marketplace](https://marketplace.firefox.com/app/cbreaker46)
+    * see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
+        *  online version [Code Breaker 5.10 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
 * Allow the User Interface / Human Machine Interface to process both Touch Event and Mouse Event types to support different device classes (Desktop systems, Tablets, Mobile phones).
 * Closely bind unit tests / regression tests to application to run the tests from inside the application directly on target systems on-the-fly.
 * Make the application resolution aware (Optimization on small screen resolutions and high Desktop resolutions).
@@ -80,7 +92,7 @@ Click icons for direct online usage
 
 * check https://marketplace.firefox.com (Code Breaker 4.6 is currently submitted but still needs approval, December 4th, 2013)
 
-Tested to run on Firefox Desktop (Windows and Linux), Firefox OS (Geeksphone Keon, Geeksphone Peak), Firefox for Android (Tablet and Phone).
+Tested to run on Firefox Desktop (Windows and Linux), Firefox OS (Geeksphone Keon, Geeksphone Peak), Firefox for Android (Tablet and Phone), Windows Phone 8.
 
 Contributors / Authors
 ----------------------
