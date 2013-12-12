@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+
+Logos and trademarks belong to their respective owners.
+
+The MIT License (MIT)
+
+Copyright (c) 2013, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
+Follow Me
+ An application to advise on guesses of Code Breaker implementations
+
+Contributors:
+* Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-->
+<strategy>
+  <guess code="aabb">
+    <guess code="ccde" perfect="0" imperfect="0">
+      <guess code="ffff" perfect="0" imperfect="0"/>
+      <guess code="ffdf" perfect="0" imperfect="1">
+        <guess code="eeef" perfect="1" imperfect="0"/>
+        <guess code="ddfd" perfect="0" imperfect="2"/>
+        <guess code="eeff" perfect="1" imperfect="1"/>
+        <guess code="aeaa" perfect="2" imperfect="0">
+          <guess code="efef" perfect="0" imperfect="1"/>
+          <guess code="feef" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="adaf" perfect="1" imperfect="2">
+          <guess code="dffd" perfect="0" imperfect="2"/>
+          <guess code="fdfd" perfect="1" imperfect="1"/>
+          <guess code="ddff" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aeaa" perfect="2" imperfect="1">
+          <guess code="fffc" perfect="0" imperfect="0"/>
+          <guess code="efff" perfect="0" imperfect="1"/>
+          <guess code="feff" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="ffef" perfect="0" imperfect="0"/>
+          <guess code="ffcf" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="adaf" perfect="2" imperfect="2">
+          <guess code="fffd" perfect="0" imperfect="2"/>
+          <guess code="dfff" perfect="1" imperfect="1"/>
+          <guess code="fdff" perfect="2" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="cfef" perfect="1" imperfect="0">
+        <guess code="dddd" perfect="0" imperfect="0"/>
+        <guess code="fddd" perfect="0" imperfect="1"/>
+        <guess code="aaad" perfect="1" imperfect="0">
+          <guess code="eeee" perfect="0" imperfect="0"/>
+          <guess code="dddf" perfect="0" imperfect="1"/>
+          <guess code="dfdd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="eefe" perfect="0" imperfect="2"/>
+        <guess code="aaad" perfect="1" imperfect="1">
+          <guess code="feee" perfect="0" imperfect="0"/>
+          <guess code="fddf" perfect="0" imperfect="1"/>
+          <guess code="ffdd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aadd" perfect="2" imperfect="0">
+          <guess code="efee" perfect="0" imperfect="0"/>
+          <guess code="ffdf" perfect="1" imperfect="0"/>
+          <guess code="dfdf" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="fefe" perfect="0" imperfect="3"/>
+        <guess code="aaee" perfect="1" imperfect="2">
+          <guess code="fcff" perfect="0" imperfect="0"/>
+          <guess code="fffe" perfect="1" imperfect="0"/>
+          <guess code="effe" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="ffee" perfect="2" imperfect="1"/>
+        <guess code="cfff" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="ffcd" perfect="0" imperfect="2">
+        <guess code="eeec" perfect="0" imperfect="1"/>
+        <guess code="addd" perfect="1" imperfect="0">
+          <guess code="eeed" perfect="1" imperfect="0"/>
+          <guess code="deed" perfect="1" imperfect="1"/>
+          <guess code="eded" perfect="2" imperfect="0"/>
+          <guess code="dded" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="adad" perfect="0" imperfect="2">
+          <guess code="eefc" perfect="0" imperfect="0"/>
+          <guess code="deef" perfect="0" imperfect="1"/>
+          <guess code="edef" perfect="1" imperfect="0"/>
+          <guess code="ddef" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aece" perfect="1" imperfect="1">
+          <guess code="edfd" perfect="0" imperfect="1"/>
+          <guess code="defd" perfect="1" imperfect="0"/>
+          <guess code="eefd" perfect="1" imperfect="1"/>
+          <guess code="efec" perfect="0" imperfect="3"/>
+          <guess code="feec" perfect="1" imperfect="2"/>
+          <guess code="eecf" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="afee" perfect="2" imperfect="0">
+          <guess code="ddcd" perfect="0" imperfect="0"/>
+          <guess code="fded" perfect="1" imperfect="1"/>
+          <guess code="dfed" perfect="2" imperfect="0"/>
+          <guess code="feed" perfect="1" imperfect="2"/>
+          <guess code="efed" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="adac" perfect="0" imperfect="3">
+          <guess code="deff" perfect="0" imperfect="1"/>
+          <guess code="edff" perfect="1" imperfect="0"/>
+          <guess code="ddfc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="afac" perfect="1" imperfect="2">
+          <guess code="fdef" perfect="0" imperfect="1"/>
+          <guess code="dfef" perfect="1" imperfect="0"/>
+          <guess code="ddcf" perfect="0" imperfect="2"/>
+          <guess code="fefc" perfect="1" imperfect="1"/>
+          <guess code="effc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aeca" perfect="2" imperfect="1">
+          <guess code="effd" perfect="0" imperfect="1"/>
+          <guess code="fefd" perfect="1" imperfect="0"/>
+          <guess code="ffec" perfect="0" imperfect="2"/>
+          <guess code="efcf" perfect="1" imperfect="1"/>
+          <guess code="fecf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="adac" perfect="3" imperfect="0">
+          <guess code="ffed" perfect="0" imperfect="1"/>
+          <guess code="ffcc" perfect="1" imperfect="0"/>
+          <guess code="dfcd" perfect="0" imperfect="2"/>
+          <guess code="fdcd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="adaa" perfect="1" imperfect="3">
+          <guess code="dffc" perfect="0" imperfect="1"/>
+          <guess code="fdfc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="adaa" perfect="2" imperfect="2">
+          <guess code="dfcf" perfect="0" imperfect="1"/>
+          <guess code="fdcf" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="ccff" perfect="1" imperfect="1">
+        <guess code="addd" perfect="0" imperfect="0">
+          <guess code="deee" perfect="0" imperfect="1"/>
+          <guess code="edee" perfect="1" imperfect="0"/>
+          <guess code="ddee" perfect="1" imperfect="1"/>
+          <guess code="eedd" perfect="2" imperfect="0"/>
+          <guess code="dedd" perfect="2" imperfect="1"/>
+          <guess code="eddd" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="cfdd" perfect="0" imperfect="1">
+          <guess code="eece" perfect="0" imperfect="1"/>
+          <guess code="fdee" perfect="0" imperfect="2"/>
+          <guess code="dfee" perfect="1" imperfect="1"/>
+          <guess code="dddc" perfect="1" imperfect="2"/>
+          <guess code="fedd" perfect="2" imperfect="1"/>
+          <guess code="efdd" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="addf" perfect="1" imperfect="0">
+          <guess code="defe" perfect="0" imperfect="2"/>
+          <guess code="edfe" perfect="1" imperfect="1"/>
+          <guess code="eedf" perfect="2" imperfect="0"/>
+          <guess code="ddfe" perfect="1" imperfect="2"/>
+          <guess code="dedf" perfect="2" imperfect="1"/>
+          <guess code="eddf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="afad" perfect="0" imperfect="2">
+          <guess code="fece" perfect="0" imperfect="1"/>
+          <guess code="efce" perfect="1" imperfect="0"/>
+          <guess code="fddc" perfect="0" imperfect="2"/>
+          <guess code="dfdc" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="afdf" perfect="1" imperfect="1">
+          <guess code="fdfe" perfect="0" imperfect="3"/>
+          <guess code="dffe" perfect="1" imperfect="2"/>
+          <guess code="fedf" perfect="2" imperfect="1"/>
+          <guess code="efdf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="acad" perfect="2" imperfect="0">
+          <guess code="ceef" perfect="0" imperfect="1"/>
+          <guess code="ecef" perfect="1" imperfect="0"/>
+          <guess code="cdfd" perfect="1" imperfect="1"/>
+          <guess code="dcfd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="0" imperfect="3">
+          <guess code="ffce" perfect="0" imperfect="1"/>
+          <guess code="ffdc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="acaa" perfect="1" imperfect="2">
+          <guess code="cfcc" perfect="0" imperfect="1"/>
+          <guess code="fccc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="acad" perfect="2" imperfect="1">
+          <guess code="cfef" perfect="0" imperfect="1"/>
+          <guess code="fcef" perfect="1" imperfect="0"/>
+          <guess code="cffd" perfect="1" imperfect="1"/>
+          <guess code="fcfd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="acad" perfect="3" imperfect="0">
+          <guess code="ceff" perfect="0" imperfect="1"/>
+          <guess code="ecff" perfect="1" imperfect="0"/>
+          <guess code="cdff" perfect="0" imperfect="2"/>
+          <guess code="dcff" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="accf" perfect="2" imperfect="2">
+          <guess code="cffc" perfect="0" imperfect="3"/>
+          <guess code="fcfc" perfect="1" imperfect="2"/>
+          <guess code="cfcf" perfect="2" imperfect="1"/>
+          <guess code="fccf" perfect="3" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="cfcf" perfect="2" imperfect="0">
+        <guess code="addd" perfect="0" imperfect="0">
+          <guess code="eede" perfect="1" imperfect="0"/>
+          <guess code="dede" perfect="1" imperfect="1"/>
+          <guess code="edde" perfect="2" imperfect="0"/>
+          <guess code="ddde" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aadd" perfect="0" imperfect="1">
+          <guess code="ecee" perfect="0" imperfect="0"/>
+          <guess code="fede" perfect="1" imperfect="0"/>
+          <guess code="fdde" perfect="1" imperfect="1"/>
+          <guess code="dcdd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aadd" perfect="1" imperfect="0">
+          <guess code="ceee" perfect="0" imperfect="0"/>
+          <guess code="efde" perfect="1" imperfect="0"/>
+          <guess code="dfde" perfect="1" imperfect="1"/>
+          <guess code="cddd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaea" perfect="0" imperfect="2">
+          <guess code="fcdd" perfect="0" imperfect="0"/>
+          <guess code="ecfe" perfect="0" imperfect="1"/>
+          <guess code="fcee" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aace" perfect="1" imperfect="1">
+          <guess code="dcdf" perfect="0" imperfect="1"/>
+          <guess code="ffde" perfect="1" imperfect="0"/>
+          <guess code="cefe" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aacd" perfect="2" imperfect="0">
+          <guess code="cfee" perfect="0" imperfect="1"/>
+          <guess code="cccc" perfect="1" imperfect="0"/>
+          <guess code="cddf" perfect="0" imperfect="2"/>
+          <guess code="cfdd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="fcfe" perfect="0" imperfect="3"/>
+        <guess code="aaac" perfect="1" imperfect="2">
+          <guess code="fcdf" perfect="0" imperfect="1"/>
+          <guess code="ccfc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="cffe" perfect="2" imperfect="1"/>
+        <guess code="aaad" perfect="3" imperfect="0">
+          <guess code="cccf" perfect="0" imperfect="0"/>
+          <guess code="cfdf" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="ccff" perfect="2" imperfect="2"/>
+      </guess>
+      <guess code="dfec" perfect="0" imperfect="3">
+        <guess code="eecc" perfect="1" imperfect="1"/>
+        <guess code="ddcc" perfect="2" imperfect="0"/>
+        <guess code="aadd" perfect="0" imperfect="3">
+          <guess code="eecd" perfect="1" imperfect="0"/>
+          <guess code="edcd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaad" perfect="1" imperfect="2">
+          <guess code="fecc" perfect="0" imperfect="0"/>
+          <guess code="fdcc" perfect="0" imperfect="1"/>
+          <guess code="decd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaad" perfect="2" imperfect="1">
+          <guess code="efcc" perfect="0" imperfect="0"/>
+          <guess code="edec" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aaee" perfect="3" imperfect="0">
+          <guess code="dfcc" perfect="0" imperfect="0"/>
+          <guess code="ddec" perfect="1" imperfect="0"/>
+          <guess code="deec" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaad" perfect="0" imperfect="4">
+          <guess code="edcf" perfect="0" imperfect="1"/>
+          <guess code="fecd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aacd" perfect="1" imperfect="3">
+          <guess code="edfc" perfect="0" imperfect="2"/>
+          <guess code="decf" perfect="1" imperfect="1"/>
+          <guess code="efcd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaea" perfect="2" imperfect="2">
+          <guess code="defc" perfect="0" imperfect="1"/>
+          <guess code="fdec" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="cded" perfect="1" imperfect="2">
+        <guess code="adcf" perfect="0" imperfect="2">
+          <guess code="eccc" perfect="1" imperfect="0"/>
+          <guess code="ecfc" perfect="0" imperfect="2"/>
+          <guess code="dccc" perfect="1" imperfect="1"/>
+          <guess code="eccf" perfect="2" imperfect="0"/>
+          <guess code="dcfc" perfect="0" imperfect="3"/>
+          <guess code="dccf" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="acef" perfect="1" imperfect="1">
+          <guess code="cecc" perfect="0" imperfect="2"/>
+          <guess code="fccd" perfect="1" imperfect="1"/>
+          <guess code="ecec" perfect="2" imperfect="0"/>
+          <guess code="cefc" perfect="0" imperfect="3"/>
+          <guess code="cecf" perfect="1" imperfect="2"/>
+          <guess code="fcec" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="adaf" perfect="2" imperfect="0">
+          <guess code="ceec" perfect="0" imperfect="0"/>
+          <guess code="cfec" perfect="0" imperfect="1"/>
+          <guess code="cdcc" perfect="1" imperfect="0"/>
+          <guess code="cfcd" perfect="0" imperfect="2"/>
+          <guess code="cdfc" perfect="1" imperfect="1"/>
+          <guess code="cdcf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aece" perfect="0" imperfect="3">
+          <guess code="efdc" perfect="0" imperfect="2"/>
+          <guess code="fedc" perfect="1" imperfect="1"/>
+          <guess code="dfce" perfect="2" imperfect="0"/>
+          <guess code="eedc" perfect="1" imperfect="2"/>
+          <guess code="dece" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="acaf" perfect="1" imperfect="2">
+          <guess code="edce" perfect="0" imperfect="1"/>
+          <guess code="dccd" perfect="1" imperfect="0"/>
+          <guess code="fdce" perfect="0" imperfect="2"/>
+          <guess code="ecfd" perfect="1" imperfect="1"/>
+          <guess code="dcef" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaee" perfect="2" imperfect="1">
+          <guess code="cefd" perfect="0" imperfect="1"/>
+          <guess code="fced" perfect="1" imperfect="0"/>
+          <guess code="eced" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aacf" perfect="3" imperfect="0">
+          <guess code="ceed" perfect="0" imperfect="1"/>
+          <guess code="cdcd" perfect="1" imperfect="0"/>
+          <guess code="cfed" perfect="0" imperfect="2"/>
+          <guess code="cdef" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="dedc" perfect="0" imperfect="4"/>
+        <guess code="aaac" perfect="1" imperfect="3">
+          <guess code="ddce" perfect="0" imperfect="1"/>
+          <guess code="eddc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="dced" perfect="2" imperfect="2"/>
+      </guess>
+      <guess code="acdd" perfect="2" imperfect="1">
+        <guess code="aaaf" perfect="0" imperfect="1">
+          <guess code="cece" perfect="0" imperfect="0"/>
+          <guess code="cfce" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aaef" perfect="1" imperfect="0">
+          <guess code="ecce" perfect="0" imperfect="1"/>
+          <guess code="ccec" perfect="1" imperfect="0"/>
+          <guess code="fcce" perfect="0" imperfect="2"/>
+          <guess code="ccef" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="0" imperfect="2">
+          <guess code="cdee" perfect="0" imperfect="0"/>
+          <guess code="cdfe" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aadf" perfect="1" imperfect="1">
+          <guess code="dcee" perfect="0" imperfect="1"/>
+          <guess code="dcfe" perfect="0" imperfect="2"/>
+          <guess code="cfdc" perfect="1" imperfect="1"/>
+          <guess code="cedf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aadf" perfect="2" imperfect="0">
+          <guess code="cccd" perfect="0" imperfect="1"/>
+          <guess code="ccfd" perfect="0" imperfect="2"/>
+          <guess code="fcdc" perfect="1" imperfect="1"/>
+          <guess code="ecdf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="cddc" perfect="1" imperfect="2"/>
+        <guess code="aaac" perfect="2" imperfect="1">
+          <guess code="cedd" perfect="0" imperfect="1"/>
+          <guess code="dcdc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="ecdd" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="cddf" perfect="3" imperfect="0">
+        <guess code="aaca" perfect="1" imperfect="0">
+          <guess code="ccee" perfect="0" imperfect="1"/>
+          <guess code="ccce" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaad" perfect="1" imperfect="1">
+          <guess code="ccfe" perfect="0" imperfect="0"/>
+          <guess code="ecde" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="0">
+          <guess code="cede" perfect="0" imperfect="1"/>
+          <guess code="ccdc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="1" imperfect="2">
+          <guess code="dcde" perfect="0" imperfect="0"/>
+          <guess code="fcde" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aaad" perfect="2" imperfect="1">
+          <guess code="cfde" perfect="0" imperfect="1"/>
+          <guess code="ccdd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaae" perfect="3" imperfect="0">
+          <guess code="ccdf" perfect="0" imperfect="0"/>
+          <guess code="cdde" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="adaa" perfect="0" imperfect="4">
+        <guess code="decc" perfect="0" imperfect="1"/>
+        <guess code="edcc" perfect="1" imperfect="0"/>
+      </guess>
+      <guess code="accd" perfect="1" imperfect="3">
+        <guess code="cdec" perfect="0" imperfect="3"/>
+        <guess code="dcec" perfect="1" imperfect="2"/>
+        <guess code="cecd" perfect="2" imperfect="1"/>
+        <guess code="eccd" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="acad" perfect="2" imperfect="2">
+        <guess code="aaac" perfect="0" imperfect="2">
+          <guess code="cdce" perfect="0" imperfect="1"/>
+          <guess code="cedc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="1">
+          <guess code="dcce" perfect="0" imperfect="1"/>
+          <guess code="ecdc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="cced" perfect="2" imperfect="0"/>
+      </guess>
+    </guess>
+    <guess code="bcdd" perfect="0" imperfect="1">
+      <guess code="aeae" perfect="0" imperfect="0">
+        <guess code="fffa" perfect="0" imperfect="1"/>
+        <guess code="ffaf" perfect="1" imperfect="0"/>
+        <guess code="aaea" perfect="0" imperfect="2">
+          <guess code="effa" perfect="1" imperfect="1"/>
+          <guess code="ffea" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="1">
+          <guess code="fefa" perfect="0" imperfect="1"/>
+          <guess code="efaf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="feaf" perfect="1" imperfect="1"/>
+          <guess code="ffae" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="efea" perfect="0" imperfect="3"/>
+        <guess code="aaef" perfect="1" imperfect="2">
+          <guess code="eeea" perfect="1" imperfect="1"/>
+          <guess code="eefa" perfect="0" imperfect="3"/>
+          <guess code="feea" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aaae" perfect="2" imperfect="1">
+          <guess code="eeaf" perfect="1" imperfect="1"/>
+          <guess code="efae" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="3" imperfect="0">
+          <guess code="eeae" perfect="1" imperfect="0"/>
+          <guess code="feae" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="beae" perfect="0" imperfect="1">
+        <guess code="adff" perfect="0" imperfect="1">
+          <guess code="cfca" perfect="0" imperfect="2"/>
+          <guess code="fbff" perfect="2" imperfect="0"/>
+          <guess code="ffca" perfect="0" imperfect="3"/>
+          <guess code="cffa" perfect="1" imperfect="2"/>
+          <guess code="dffa" perfect="1" imperfect="3"/>
+          <guess code="fdfa" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="adff" perfect="1" imperfect="0">
+          <guess code="cfac" perfect="0" imperfect="2"/>
+          <guess code="ffac" perfect="0" imperfect="3"/>
+          <guess code="cfaf" perfect="1" imperfect="2"/>
+          <guess code="dfaf" perfect="1" imperfect="3"/>
+          <guess code="fdaf" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="afec" perfect="0" imperfect="2">
+          <guess code="ebff" perfect="0" imperfect="2"/>
+          <guess code="fbef" perfect="1" imperfect="1"/>
+          <guess code="edfa" perfect="0" imperfect="3"/>
+          <guess code="fdea" perfect="1" imperfect="2"/>
+          <guess code="dfea" perfect="2" imperfect="1"/>
+          <guess code="efca" perfect="1" imperfect="3"/>
+          <guess code="cfea" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="acca" perfect="1" imperfect="1">
+          <guess code="fbfe" perfect="0" imperfect="0"/>
+          <guess code="edaf" perfect="0" imperfect="1"/>
+          <guess code="defa" perfect="1" imperfect="0"/>
+          <guess code="efac" perfect="0" imperfect="2"/>
+          <guess code="cefa" perfect="1" imperfect="1"/>
+          <guess code="feca" perfect="2" imperfect="0"/>
+          <guess code="ceca" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="deaf" perfect="2" imperfect="0">
+          <guess code="ceac" perfect="2" imperfect="0"/>
+          <guess code="cfae" perfect="1" imperfect="2"/>
+          <guess code="feac" perfect="2" imperfect="1"/>
+          <guess code="ceaf" perfect="3" imperfect="0"/>
+          <guess code="fdae" perfect="1" imperfect="3"/>
+          <guess code="dfae" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="aaaa" perfect="0" imperfect="3">
+          <guess code="ebef" perfect="0" imperfect="0"/>
+          <guess code="edea" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="cafe" perfect="1" imperfect="2">
+          <guess code="ebee" perfect="1" imperfect="0"/>
+          <guess code="deea" perfect="0" imperfect="2"/>
+          <guess code="fbee" perfect="1" imperfect="1"/>
+          <guess code="ebfe" perfect="2" imperfect="0"/>
+          <guess code="eeca" perfect="0" imperfect="3"/>
+          <guess code="ceea" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="1">
+          <guess code="edae" perfect="1" imperfect="0"/>
+          <guess code="eeac" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="deae" perfect="1" imperfect="0"/>
+          <guess code="ceae" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="aeac" perfect="1" imperfect="0">
+        <guess code="bfff" perfect="0" imperfect="0"/>
+        <guess code="abef" perfect="0" imperfect="1">
+          <guess code="ffda" perfect="0" imperfect="2"/>
+          <guess code="bffe" perfect="0" imperfect="3"/>
+          <guess code="bfee" perfect="1" imperfect="2"/>
+          <guess code="bfef" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="abef" perfect="1" imperfect="0">
+          <guess code="ffad" perfect="0" imperfect="2"/>
+          <guess code="beee" perfect="1" imperfect="1"/>
+          <guess code="befe" perfect="0" imperfect="3"/>
+          <guess code="beff" perfect="1" imperfect="2"/>
+          <guess code="beef" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="accc" perfect="0" imperfect="2">
+          <guess code="efda" perfect="0" imperfect="1"/>
+          <guess code="fcfa" perfect="1" imperfect="1"/>
+          <guess code="ccfa" perfect="1" imperfect="2"/>
+          <guess code="fcca" perfect="2" imperfect="1"/>
+          <guess code="ccca" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="afcc" perfect="1" imperfect="1">
+          <guess code="eeda" perfect="0" imperfect="1"/>
+          <guess code="feda" perfect="0" imperfect="2"/>
+          <guess code="efad" perfect="1" imperfect="1"/>
+          <guess code="fcaf" perfect="0" imperfect="3"/>
+          <guess code="ccaf" perfect="0" imperfect="4"/>
+        </guess>
+        <guess code="aafc" perfect="2" imperfect="0">
+          <guess code="eead" perfect="0" imperfect="1"/>
+          <guess code="fead" perfect="0" imperfect="2"/>
+          <guess code="ccac" perfect="1" imperfect="1"/>
+          <guess code="fcac" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="caef" perfect="0" imperfect="3">
+          <guess code="ecca" perfect="0" imperfect="3"/>
+          <guess code="ecea" perfect="1" imperfect="2"/>
+          <guess code="ccea" perfect="2" imperfect="1"/>
+          <guess code="ecfa" perfect="0" imperfect="4"/>
+          <guess code="fcea" perfect="1" imperfect="3"/>
+        </guess>
+        <guess code="caaf" perfect="1" imperfect="2">
+          <guess code="ecae" perfect="1" imperfect="1"/>
+          <guess code="ccae" perfect="2" imperfect="0"/>
+          <guess code="fcae" perfect="1" imperfect="2"/>
+          <guess code="ecaf" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="ecac" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="cbce" perfect="0" imperfect="2">
+        <guess code="aaab" perfect="0" imperfect="0">
+          <guess code="ddfa" perfect="0" imperfect="1"/>
+          <guess code="ddaf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="adac" perfect="0" imperfect="1">
+          <guess code="ddea" perfect="1" imperfect="1"/>
+          <guess code="dfac" perfect="2" imperfect="1"/>
+          <guess code="fdac" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="bfca" perfect="1" imperfect="0">
+          <guess code="ddae" perfect="0" imperfect="1"/>
+          <guess code="dbff" perfect="0" imperfect="2"/>
+          <guess code="cdaf" perfect="0" imperfect="3"/>
+          <guess code="cdfa" perfect="1" imperfect="2"/>
+          <guess code="fdca" perfect="2" imperfect="1"/>
+          <guess code="dfca" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="adaa" perfect="0" imperfect="2">
+          <guess code="deac" perfect="1" imperfect="1"/>
+          <guess code="edac" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="adec" perfect="1" imperfect="1">
+          <guess code="fbfc" perfect="1" imperfect="0"/>
+          <guess code="dbef" perfect="1" imperfect="1"/>
+          <guess code="cdac" perfect="2" imperfect="1"/>
+          <guess code="deca" perfect="0" imperfect="4"/>
+          <guess code="edca" perfect="1" imperfect="3"/>
+          <guess code="cdea" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="accf" perfect="2" imperfect="0">
+          <guess code="dbee" perfect="0" imperfect="0"/>
+          <guess code="dbfe" perfect="0" imperfect="1"/>
+          <guess code="cdae" perfect="0" imperfect="2"/>
+          <guess code="cbff" perfect="1" imperfect="1"/>
+          <guess code="fbcf" perfect="2" imperfect="0"/>
+          <guess code="cdca" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aaee" perfect="1" imperfect="2">
+          <guess code="ebfc" perfect="0" imperfect="1"/>
+          <guess code="fbec" perfect="1" imperfect="0"/>
+          <guess code="ebec" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aacc" perfect="2" imperfect="1">
+          <guess code="cbef" perfect="0" imperfect="1"/>
+          <guess code="ebcf" perfect="1" imperfect="0"/>
+          <guess code="cbfc" perfect="1" imperfect="1"/>
+          <guess code="fbcc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aecf" perfect="3" imperfect="0">
+          <guess code="cbcc" perfect="1" imperfect="0"/>
+          <guess code="cbee" perfect="0" imperfect="2"/>
+          <guess code="ebce" perfect="1" imperfect="1"/>
+          <guess code="cbcf" perfect="2" imperfect="0"/>
+          <guess code="cbfe" perfect="0" imperfect="3"/>
+          <guess code="fbce" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aaca" perfect="2" imperfect="2">
+          <guess code="cbec" perfect="0" imperfect="1"/>
+          <guess code="ebcc" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="ddae" perfect="1" imperfect="1">
+        <guess code="aacf" perfect="0" imperfect="0">
+          <guess code="bffc" perfect="0" imperfect="2"/>
+          <guess code="bfcc" perfect="1" imperfect="1"/>
+          <guess code="bfcf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aecf" perfect="0" imperfect="1">
+          <guess code="fbfd" perfect="0" imperfect="1"/>
+          <guess code="fbdf" perfect="1" imperfect="0"/>
+          <guess code="beec" perfect="1" imperfect="1"/>
+          <guess code="becc" perfect="2" imperfect="0"/>
+          <guess code="bfec" perfect="0" imperfect="3"/>
+          <guess code="befc" perfect="1" imperfect="2"/>
+          <guess code="becf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="1" imperfect="0">
+          <guess code="bece" perfect="0" imperfect="0"/>
+          <guess code="bfce" perfect="0" imperfect="1"/>
+          <guess code="bdff" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aafd" perfect="0" imperfect="2">
+          <guess code="ebed" perfect="1" imperfect="0"/>
+          <guess code="ebdf" perfect="0" imperfect="2"/>
+          <guess code="fbed" perfect="1" imperfect="1"/>
+          <guess code="ebfd" perfect="2" imperfect="0"/>
+          <guess code="cfda" perfect="0" imperfect="3"/>
+        </guess>
+        <guess code="abfe" perfect="1" imperfect="1">
+          <guess code="dcca" perfect="0" imperfect="1"/>
+          <guess code="cfad" perfect="0" imperfect="2"/>
+          <guess code="dcfa" perfect="1" imperfect="1"/>
+          <guess code="ebde" perfect="2" imperfect="0"/>
+          <guess code="bdef" perfect="0" imperfect="3"/>
+          <guess code="fbde" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaaf" perfect="2" imperfect="0">
+          <guess code="bdee" perfect="0" imperfect="0"/>
+          <guess code="bdfe" perfect="0" imperfect="1"/>
+          <guess code="dcac" perfect="1" imperfect="0"/>
+          <guess code="dcaf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="ceda" perfect="0" imperfect="3"/>
+        <guess code="adac" perfect="1" imperfect="2">
+          <guess code="dfda" perfect="0" imperfect="2"/>
+          <guess code="fdda" perfect="1" imperfect="1"/>
+          <guess code="dcea" perfect="0" imperfect="3"/>
+          <guess code="cead" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="adad" perfect="2" imperfect="1">
+          <guess code="ddda" perfect="1" imperfect="2"/>
+          <guess code="dfad" perfect="2" imperfect="1"/>
+          <guess code="fdad" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="ddad" perfect="1" imperfect="0"/>
+          <guess code="dcae" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="adaa" perfect="1" imperfect="3">
+          <guess code="deda" perfect="1" imperfect="1"/>
+          <guess code="edda" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="adaa" perfect="2" imperfect="2">
+          <guess code="dead" perfect="1" imperfect="1"/>
+          <guess code="edad" perfect="2" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="aede" perfect="2" imperfect="0">
+        <guess code="aacf" perfect="0" imperfect="0">
+          <guess code="bccc" perfect="1" imperfect="0"/>
+          <guess code="bcfc" perfect="0" imperfect="2"/>
+          <guess code="bcff" perfect="1" imperfect="1"/>
+          <guess code="bccf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="0" imperfect="1">
+          <guess code="bffd" perfect="0" imperfect="0"/>
+          <guess code="bcef" perfect="0" imperfect="1"/>
+          <guess code="bcec" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="1" imperfect="0">
+          <guess code="bcce" perfect="0" imperfect="0"/>
+          <guess code="bcfe" perfect="0" imperfect="1"/>
+          <guess code="bfdf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="0" imperfect="2">
+          <guess code="bfed" perfect="0" imperfect="1"/>
+          <guess code="ccad" perfect="1" imperfect="0"/>
+          <guess code="fcad" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aacc" perfect="1" imperfect="1">
+          <guess code="befd" perfect="0" imperfect="0"/>
+          <guess code="bcee" perfect="0" imperfect="1"/>
+          <guess code="fcda" perfect="0" imperfect="2"/>
+          <guess code="ccda" perfect="0" imperfect="3"/>
+        </guess>
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="bedf" perfect="0" imperfect="1"/>
+          <guess code="bfde" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="ecad" perfect="0" imperfect="3"/>
+        <guess code="aaaa" perfect="1" imperfect="2">
+          <guess code="beed" perfect="0" imperfect="0"/>
+          <guess code="ecda" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="bede" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="bcce" perfect="0" imperfect="3">
+        <guess code="ddac" perfect="0" imperfect="1"/>
+        <guess code="ddca" perfect="1" imperfect="0"/>
+        <guess code="dbfc" perfect="0" imperfect="2"/>
+        <guess code="dbcf" perfect="1" imperfect="1"/>
+        <guess code="dbec" perfect="0" imperfect="3"/>
+        <guess code="dbcc" perfect="1" imperfect="2"/>
+        <guess code="dbce" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="cbde" perfect="1" imperfect="2">
+        <guess code="aaaa" perfect="1" imperfect="1">
+          <guess code="dbfd" perfect="0" imperfect="0"/>
+          <guess code="cdad" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="2" imperfect="0">
+          <guess code="dbdf" perfect="0" imperfect="0"/>
+          <guess code="cdda" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="0" imperfect="3">
+          <guess code="bdcc" perfect="0" imperfect="0"/>
+          <guess code="bdfc" perfect="0" imperfect="1"/>
+          <guess code="bdcf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="2">
+          <guess code="dbed" perfect="0" imperfect="0"/>
+          <guess code="fbcd" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aacc" perfect="2" imperfect="1">
+          <guess code="cbfd" perfect="0" imperfect="1"/>
+          <guess code="fbdc" perfect="1" imperfect="0"/>
+          <guess code="cbcd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="dbde" perfect="0" imperfect="0"/>
+          <guess code="cbdf" perfect="0" imperfect="1"/>
+          <guess code="cbdc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="bdec" perfect="0" imperfect="4"/>
+        <guess code="aaad" perfect="1" imperfect="3">
+          <guess code="bdce" perfect="0" imperfect="1"/>
+          <guess code="ebcd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="2">
+          <guess code="cbed" perfect="0" imperfect="1"/>
+          <guess code="ebdc" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="bdbe" perfect="2" imperfect="1">
+        <guess code="aaab" perfect="0" imperfect="1">
+          <guess code="dcda" perfect="0" imperfect="1"/>
+          <guess code="dcad" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="0" imperfect="2">
+          <guess code="dbdd" perfect="0" imperfect="0"/>
+          <guess code="fbdd" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="1">
+          <guess code="bfcd" perfect="0" imperfect="1"/>
+          <guess code="bfdc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaad" perfect="2" imperfect="0">
+          <guess code="bddf" perfect="0" imperfect="1"/>
+          <guess code="bdfd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="ebdd" perfect="0" imperfect="3"/>
+        <guess code="aaac" perfect="1" imperfect="2">
+          <guess code="becd" perfect="0" imperfect="1"/>
+          <guess code="bedc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="bded" perfect="2" imperfect="1"/>
+        <guess code="bdde" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="acce" perfect="3" imperfect="0">
+        <guess code="aaaf" perfect="0" imperfect="0">
+          <guess code="bddd" perfect="0" imperfect="0"/>
+          <guess code="bfdd" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="bedd" perfect="0" imperfect="1"/>
+        <guess code="aaad" perfect="1" imperfect="0">
+          <guess code="bcdf" perfect="0" imperfect="1"/>
+          <guess code="bcfd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="1">
+          <guess code="bced" perfect="0" imperfect="1"/>
+          <guess code="bcdc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaad" perfect="2" imperfect="0">
+          <guess code="bcde" perfect="0" imperfect="1"/>
+          <guess code="bccd" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="aaac" perfect="1" imperfect="3">
+        <guess code="dbcd" perfect="0" imperfect="1"/>
+        <guess code="dbdc" perfect="1" imperfect="0"/>
+      </guess>
+      <guess code="aacd" perfect="2" imperfect="2">
+        <guess code="bddc" perfect="0" imperfect="2"/>
+        <guess code="cbdd" perfect="1" imperfect="1"/>
+        <guess code="bdcd" perfect="2" imperfect="0"/>
+      </guess>
+    </guess>
+    <guess code="bcdd" perfect="0" imperfect="2">
+      <guess code="aeae" perfect="0" imperfect="0">
+        <guess code="ffaa" perfect="1" imperfect="1"/>
+        <guess code="efaa" perfect="1" imperfect="2"/>
+        <guess code="feaa" perfect="2" imperfect="1"/>
+        <guess code="eeaa" perfect="2" imperfect="2"/>
+      </guess>
+      <guess code="abee" perfect="0" imperfect="1">
+        <guess code="adaa" perfect="0" imperfect="1">
+          <guess code="cfaa" perfect="2" imperfect="0"/>
+          <guess code="dfaa" perfect="2" imperfect="1"/>
+          <guess code="fdaa" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="adaa" perfect="0" imperfect="2">
+          <guess code="ceaa" perfect="2" imperfect="0"/>
+          <guess code="deaa" perfect="2" imperfect="1"/>
+          <guess code="edaa" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="1">
+          <guess code="fbfa" perfect="0" imperfect="2"/>
+          <guess code="fbaf" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="2">
+          <guess code="ebfa" perfect="0" imperfect="2"/>
+          <guess code="ebaf" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaab" perfect="2" imperfect="1">
+          <guess code="fbea" perfect="0" imperfect="2"/>
+          <guess code="fbae" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaab" perfect="2" imperfect="2">
+          <guess code="ebea" perfect="0" imperfect="2"/>
+          <guess code="ebae" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="baee" perfect="1" imperfect="0">
+        <guess code="aaaf" perfect="0" imperfect="1">
+          <guess code="ccaa" perfect="1" imperfect="1"/>
+          <guess code="fcaa" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="bbff" perfect="1" imperfect="0"/>
+        <guess code="ecaa" perfect="0" imperfect="2"/>
+        <guess code="aaab" perfect="1" imperfect="1">
+          <guess code="bffa" perfect="0" imperfect="2"/>
+          <guess code="bfaf" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="bbef" perfect="0" imperfect="1"/>
+          <guess code="bbfe" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="2">
+          <guess code="befa" perfect="0" imperfect="2"/>
+          <guess code="beaf" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaab" perfect="2" imperfect="1">
+          <guess code="bfea" perfect="0" imperfect="2"/>
+          <guess code="bfae" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="bbee" perfect="3" imperfect="0"/>
+        <guess code="aaab" perfect="2" imperfect="2">
+          <guess code="beea" perfect="0" imperfect="2"/>
+          <guess code="beae" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="adae" perfect="0" imperfect="2">
+        <guess code="aacc" perfect="0" imperfect="1">
+          <guess code="cbfa" perfect="0" imperfect="2"/>
+          <guess code="fbca" perfect="1" imperfect="1"/>
+          <guess code="cbca" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aaaf" perfect="1" imperfect="0">
+          <guess code="cbac" perfect="1" imperfect="0"/>
+          <guess code="fbac" perfect="1" imperfect="1"/>
+          <guess code="cbaf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaca" perfect="0" imperfect="2">
+          <guess code="dbfa" perfect="1" imperfect="0"/>
+          <guess code="cbea" perfect="1" imperfect="1"/>
+          <guess code="ebca" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="1">
+          <guess code="dbaf" perfect="1" imperfect="0"/>
+          <guess code="ebac" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="cbae" perfect="2" imperfect="0"/>
+        <guess code="dbea" perfect="0" imperfect="3"/>
+        <guess code="aaac" perfect="2" imperfect="1">
+          <guess code="dbae" perfect="1" imperfect="0"/>
+          <guess code="ddaa" perfect="1" imperfect="1"/>
+          <guess code="cdaa" perfect="1" imperfect="2"/>
+        </guess>
+      </guess>
+      <guess code="adae" perfect="1" imperfect="1">
+        <guess code="aaaf" perfect="0" imperfect="0">
+          <guess code="bbcc" perfect="0" imperfect="0"/>
+          <guess code="bbfc" perfect="0" imperfect="1"/>
+          <guess code="bbcf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="0" imperfect="1">
+          <guess code="bbec" perfect="0" imperfect="0"/>
+          <guess code="bfca" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="1" imperfect="0">
+          <guess code="bbce" perfect="0" imperfect="0"/>
+          <guess code="bfac" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="0" imperfect="2">
+          <guess code="fbda" perfect="0" imperfect="1"/>
+          <guess code="beca" perfect="0" imperfect="2"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="1">
+          <guess code="bdfa" perfect="0" imperfect="1"/>
+          <guess code="fbad" perfect="1" imperfect="0"/>
+          <guess code="beac" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="bdaf" perfect="2" imperfect="0"/>
+        <guess code="ebda" perfect="0" imperfect="3"/>
+        <guess code="aaac" perfect="1" imperfect="2">
+          <guess code="bdea" perfect="0" imperfect="1"/>
+          <guess code="ebad" perfect="1" imperfect="0"/>
+          <guess code="dcaa" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="bdae" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="ccae" perfect="2" imperfect="0">
+        <guess code="aaad" perfect="0" imperfect="0">
+          <guess code="bbdf" perfect="0" imperfect="1"/>
+          <guess code="bbfd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="0" imperfect="1">
+          <guess code="bbed" perfect="0" imperfect="0"/>
+          <guess code="bfda" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="1" imperfect="0">
+          <guess code="bbde" perfect="0" imperfect="0"/>
+          <guess code="bfad" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="beda" perfect="0" imperfect="2"/>
+        <guess code="aaab" perfect="1" imperfect="1">
+          <guess code="bcfa" perfect="0" imperfect="2"/>
+          <guess code="bead" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="bcaf" perfect="2" imperfect="0"/>
+        <guess code="aaae" perfect="1" imperfect="2">
+          <guess code="bcca" perfect="0" imperfect="1"/>
+          <guess code="bcea" perfect="0" imperfect="2"/>
+        </guess>
+        <guess code="bcac" perfect="2" imperfect="1"/>
+        <guess code="bcae" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="aaab" perfect="0" imperfect="3">
+        <guess code="dbca" perfect="0" imperfect="2"/>
+        <guess code="dbac" perfect="1" imperfect="1"/>
+      </guess>
+      <guess code="bdac" perfect="1" imperfect="2">
+        <guess code="dbda" perfect="0" imperfect="3"/>
+        <guess code="dbad" perfect="1" imperfect="2"/>
+        <guess code="cbda" perfect="0" imperfect="4"/>
+        <guess code="cbad" perfect="1" imperfect="3"/>
+        <guess code="bdca" perfect="2" imperfect="2"/>
+      </guess>
+      <guess code="aaad" perfect="2" imperfect="1">
+        <guess code="bbdc" perfect="0" imperfect="1"/>
+        <guess code="bbcd" perfect="1" imperfect="0"/>
+        <guess code="bdda" perfect="0" imperfect="2"/>
+        <guess code="bdad" perfect="2" imperfect="0"/>
+      </guess>
+      <guess code="aaab" perfect="3" imperfect="0">
+        <guess code="bbdd" perfect="0" imperfect="1"/>
+        <guess code="bcda" perfect="0" imperfect="2"/>
+        <guess code="bcad" perfect="1" imperfect="1"/>
+      </guess>
+    </guess>
+    <guess code="abac" perfect="0" imperfect="3">
+      <guess code="aade" perfect="1" imperfect="1">
+        <guess code="bbfa" perfect="0" imperfect="1"/>
+        <guess code="bbea" perfect="0" imperfect="2"/>
+        <guess code="bbda" perfect="1" imperfect="1"/>
+      </guess>
+      <guess code="aade" perfect="2" imperfect="0">
+        <guess code="bbaf" perfect="0" imperfect="1"/>
+        <guess code="bbad" perfect="0" imperfect="2"/>
+        <guess code="bbae" perfect="1" imperfect="1"/>
+      </guess>
+      <guess code="adae" perfect="1" imperfect="2">
+        <guess code="bbca" perfect="0" imperfect="1"/>
+        <guess code="bfaa" perfect="1" imperfect="1"/>
+        <guess code="beaa" perfect="1" imperfect="2"/>
+        <guess code="bdaa" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="daae" perfect="2" imperfect="1">
+        <guess code="fbaa" perfect="1" imperfect="1"/>
+        <guess code="ebaa" perfect="1" imperfect="2"/>
+        <guess code="dbaa" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="bbac" perfect="3" imperfect="0"/>
+      <guess code="bcaa" perfect="1" imperfect="3"/>
+      <guess code="cbaa" perfect="2" imperfect="2"/>
+    </guess>
+    <guess code="bbaa" perfect="0" imperfect="4"/>
+    <guess code="acdd" perfect="1" imperfect="0">
+      <guess code="aebe" perfect="0" imperfect="0">
+        <guess code="fffb" perfect="0" imperfect="1"/>
+        <guess code="ffbf" perfect="1" imperfect="0"/>
+        <guess code="aaea" perfect="0" imperfect="2">
+          <guess code="effb" perfect="0" imperfect="1"/>
+          <guess code="ffeb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="1">
+          <guess code="efbf" perfect="0" imperfect="1"/>
+          <guess code="fefb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="febf" perfect="0" imperfect="1"/>
+          <guess code="ffbe" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="efeb" perfect="0" imperfect="3"/>
+        <guess code="aaef" perfect="1" imperfect="2">
+          <guess code="eeeb" perfect="1" imperfect="0"/>
+          <guess code="eefb" perfect="0" imperfect="2"/>
+          <guess code="feeb" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaae" perfect="2" imperfect="1">
+          <guess code="eebf" perfect="0" imperfect="1"/>
+          <guess code="efbe" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="3" imperfect="0">
+          <guess code="eebe" perfect="0" imperfect="0"/>
+          <guess code="febe" perfect="0" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="aebe" perfect="0" imperfect="1">
+        <guess code="afcc" perfect="0" imperfect="1">
+          <guess code="fdfb" perfect="0" imperfect="1"/>
+          <guess code="dffb" perfect="1" imperfect="0"/>
+          <guess code="faff" perfect="0" imperfect="2"/>
+          <guess code="cffb" perfect="1" imperfect="1"/>
+          <guess code="ffcb" perfect="2" imperfect="0"/>
+          <guess code="cfcb" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="adff" perfect="1" imperfect="0">
+          <guess code="cfbc" perfect="0" imperfect="1"/>
+          <guess code="ffbc" perfect="0" imperfect="2"/>
+          <guess code="cfbf" perfect="1" imperfect="1"/>
+          <guess code="dfbf" perfect="1" imperfect="2"/>
+          <guess code="fdbf" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="bfec" perfect="0" imperfect="2">
+          <guess code="eaff" perfect="0" imperfect="2"/>
+          <guess code="faef" perfect="1" imperfect="1"/>
+          <guess code="edfb" perfect="0" imperfect="3"/>
+          <guess code="fdeb" perfect="1" imperfect="2"/>
+          <guess code="dfeb" perfect="2" imperfect="1"/>
+          <guess code="efcb" perfect="1" imperfect="3"/>
+          <guess code="cfeb" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="aefd" perfect="1" imperfect="1">
+          <guess code="cecb" perfect="1" imperfect="0"/>
+          <guess code="efbc" perfect="0" imperfect="2"/>
+          <guess code="fecb" perfect="1" imperfect="1"/>
+          <guess code="cefb" perfect="2" imperfect="0"/>
+          <guess code="edbf" perfect="0" imperfect="3"/>
+          <guess code="fafe" perfect="1" imperfect="2"/>
+          <guess code="defb" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="deaf" perfect="2" imperfect="0">
+          <guess code="cebc" perfect="1" imperfect="0"/>
+          <guess code="cfbe" perfect="0" imperfect="2"/>
+          <guess code="febc" perfect="1" imperfect="1"/>
+          <guess code="cebf" perfect="2" imperfect="0"/>
+          <guess code="fdbe" perfect="0" imperfect="3"/>
+          <guess code="dfbe" perfect="1" imperfect="2"/>
+          <guess code="debf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="0" imperfect="3">
+          <guess code="edeb" perfect="0" imperfect="0"/>
+          <guess code="eaef" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="cafe" perfect="1" imperfect="2">
+          <guess code="deeb" perfect="0" imperfect="1"/>
+          <guess code="eecb" perfect="0" imperfect="2"/>
+          <guess code="ceeb" perfect="1" imperfect="1"/>
+          <guess code="eaee" perfect="2" imperfect="0"/>
+          <guess code="faee" perfect="2" imperfect="1"/>
+          <guess code="eafe" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="1">
+          <guess code="edbe" perfect="0" imperfect="0"/>
+          <guess code="eebc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="debe" perfect="0" imperfect="0"/>
+          <guess code="cebe" perfect="0" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="bebc" perfect="1" imperfect="0">
+        <guess code="afff" perfect="0" imperfect="0"/>
+        <guess code="aaef" perfect="0" imperfect="1">
+          <guess code="ffdb" perfect="0" imperfect="1"/>
+          <guess code="affe" perfect="1" imperfect="2"/>
+          <guess code="afee" perfect="2" imperfect="1"/>
+          <guess code="afef" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaef" perfect="1" imperfect="0">
+          <guess code="ffbd" perfect="0" imperfect="1"/>
+          <guess code="aeee" perfect="2" imperfect="0"/>
+          <guess code="aefe" perfect="1" imperfect="2"/>
+          <guess code="aeff" perfect="2" imperfect="1"/>
+          <guess code="aeef" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="accc" perfect="0" imperfect="2">
+          <guess code="efdb" perfect="0" imperfect="0"/>
+          <guess code="fcfb" perfect="1" imperfect="0"/>
+          <guess code="ccfb" perfect="1" imperfect="1"/>
+          <guess code="fccb" perfect="2" imperfect="0"/>
+          <guess code="cccb" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="afcc" perfect="1" imperfect="1">
+          <guess code="eedb" perfect="0" imperfect="0"/>
+          <guess code="fedb" perfect="0" imperfect="1"/>
+          <guess code="efbd" perfect="1" imperfect="0"/>
+          <guess code="fcbf" perfect="0" imperfect="2"/>
+          <guess code="ccbf" perfect="0" imperfect="3"/>
+        </guess>
+        <guess code="aafc" perfect="2" imperfect="0">
+          <guess code="eebd" perfect="0" imperfect="0"/>
+          <guess code="febd" perfect="0" imperfect="1"/>
+          <guess code="ccbc" perfect="1" imperfect="0"/>
+          <guess code="fcbc" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="caef" perfect="0" imperfect="3">
+          <guess code="eccb" perfect="0" imperfect="2"/>
+          <guess code="eceb" perfect="1" imperfect="1"/>
+          <guess code="cceb" perfect="2" imperfect="0"/>
+          <guess code="ecfb" perfect="0" imperfect="3"/>
+          <guess code="fceb" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="caaf" perfect="1" imperfect="2">
+          <guess code="ecbe" perfect="0" imperfect="1"/>
+          <guess code="ccbe" perfect="1" imperfect="0"/>
+          <guess code="fcbe" perfect="0" imperfect="2"/>
+          <guess code="ecbf" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="ecbc" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="cace" perfect="0" imperfect="2">
+        <guess code="aaab" perfect="0" imperfect="0">
+          <guess code="ddbf" perfect="0" imperfect="1"/>
+          <guess code="ddfb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="adab" perfect="0" imperfect="1">
+          <guess code="dfbc" perfect="0" imperfect="2"/>
+          <guess code="fdbc" perfect="1" imperfect="1"/>
+          <guess code="ddeb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="afcb" perfect="1" imperfect="0">
+          <guess code="ddbe" perfect="0" imperfect="1"/>
+          <guess code="daff" perfect="0" imperfect="2"/>
+          <guess code="cdbf" perfect="0" imperfect="3"/>
+          <guess code="cdfb" perfect="1" imperfect="2"/>
+          <guess code="fdcb" perfect="2" imperfect="1"/>
+          <guess code="dfcb" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="adaa" perfect="0" imperfect="2">
+          <guess code="debc" perfect="0" imperfect="1"/>
+          <guess code="edbc" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="adea" perfect="1" imperfect="1">
+          <guess code="fafc" perfect="0" imperfect="1"/>
+          <guess code="cdbc" perfect="1" imperfect="0"/>
+          <guess code="decb" perfect="0" imperfect="2"/>
+          <guess code="edcb" perfect="1" imperfect="1"/>
+          <guess code="cdeb" perfect="2" imperfect="0"/>
+          <guess code="daef" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="adcf" perfect="2" imperfect="0">
+          <guess code="daee" perfect="0" imperfect="2"/>
+          <guess code="cdbe" perfect="1" imperfect="1"/>
+          <guess code="cdcb" perfect="2" imperfect="0"/>
+          <guess code="dafe" perfect="0" imperfect="3"/>
+          <guess code="caff" perfect="1" imperfect="2"/>
+          <guess code="facf" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaee" perfect="1" imperfect="2">
+          <guess code="eafc" perfect="1" imperfect="1"/>
+          <guess code="faec" perfect="2" imperfect="0"/>
+          <guess code="eaec" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aacc" perfect="2" imperfect="1">
+          <guess code="caef" perfect="1" imperfect="1"/>
+          <guess code="eacf" perfect="2" imperfect="0"/>
+          <guess code="cafc" perfect="2" imperfect="1"/>
+          <guess code="facc" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aecf" perfect="3" imperfect="0">
+          <guess code="cacc" perfect="1" imperfect="1"/>
+          <guess code="caee" perfect="0" imperfect="3"/>
+          <guess code="eace" perfect="1" imperfect="2"/>
+          <guess code="cacf" perfect="2" imperfect="1"/>
+          <guess code="cafe" perfect="0" imperfect="4"/>
+          <guess code="face" perfect="1" imperfect="3"/>
+        </guess>
+        <guess code="aaca" perfect="2" imperfect="2">
+          <guess code="caec" perfect="1" imperfect="1"/>
+          <guess code="eacc" perfect="2" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="ddbe" perfect="1" imperfect="1">
+        <guess code="aacf" perfect="0" imperfect="0">
+          <guess code="affc" perfect="1" imperfect="2"/>
+          <guess code="afcc" perfect="2" imperfect="1"/>
+          <guess code="afcf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aecf" perfect="0" imperfect="1">
+          <guess code="fafd" perfect="0" imperfect="2"/>
+          <guess code="fadf" perfect="1" imperfect="1"/>
+          <guess code="aeec" perfect="2" imperfect="1"/>
+          <guess code="aecc" perfect="3" imperfect="0"/>
+          <guess code="afec" perfect="1" imperfect="3"/>
+          <guess code="aefc" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="aaaf" perfect="1" imperfect="0">
+          <guess code="aece" perfect="1" imperfect="0"/>
+          <guess code="afce" perfect="1" imperfect="1"/>
+          <guess code="adff" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aafd" perfect="0" imperfect="2">
+          <guess code="cfdb" perfect="0" imperfect="2"/>
+          <guess code="eaed" perfect="2" imperfect="0"/>
+          <guess code="eadf" perfect="1" imperfect="2"/>
+          <guess code="faed" perfect="2" imperfect="1"/>
+          <guess code="eafd" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aafe" perfect="1" imperfect="1">
+          <guess code="dccb" perfect="0" imperfect="0"/>
+          <guess code="cfbd" perfect="0" imperfect="1"/>
+          <guess code="dcfb" perfect="1" imperfect="0"/>
+          <guess code="eade" perfect="2" imperfect="0"/>
+          <guess code="adef" perfect="1" imperfect="2"/>
+          <guess code="fade" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaec" perfect="2" imperfect="0">
+          <guess code="dcbf" perfect="0" imperfect="1"/>
+          <guess code="dcbc" perfect="1" imperfect="0"/>
+          <guess code="adfe" perfect="1" imperfect="1"/>
+          <guess code="adee" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="cedb" perfect="0" imperfect="3"/>
+        <guess code="adad" perfect="1" imperfect="2">
+          <guess code="dceb" perfect="0" imperfect="1"/>
+          <guess code="cebd" perfect="1" imperfect="0"/>
+          <guess code="dfdb" perfect="0" imperfect="2"/>
+          <guess code="fddb" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="adab" perfect="2" imperfect="1">
+          <guess code="dfbd" perfect="0" imperfect="2"/>
+          <guess code="fdbd" perfect="1" imperfect="1"/>
+          <guess code="dddb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="ddbd" perfect="0" imperfect="0"/>
+          <guess code="dcbe" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="adaa" perfect="1" imperfect="3">
+          <guess code="dedb" perfect="0" imperfect="1"/>
+          <guess code="eddb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="adaa" perfect="2" imperfect="2">
+          <guess code="debd" perfect="0" imperfect="1"/>
+          <guess code="edbd" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="adae" perfect="2" imperfect="0">
+        <guess code="aabf" perfect="0" imperfect="1">
+          <guess code="ccdb" perfect="0" imperfect="1"/>
+          <guess code="ccbd" perfect="1" imperfect="0"/>
+          <guess code="fcdb" perfect="0" imperfect="2"/>
+          <guess code="fcbd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aacf" perfect="1" imperfect="0">
+          <guess code="accc" perfect="2" imperfect="0"/>
+          <guess code="acfc" perfect="1" imperfect="2"/>
+          <guess code="acff" perfect="2" imperfect="1"/>
+          <guess code="accf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="0" imperfect="2">
+          <guess code="ecbd" perfect="0" imperfect="1"/>
+          <guess code="ecdb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aadf" perfect="1" imperfect="1">
+          <guess code="acec" perfect="1" imperfect="0"/>
+          <guess code="acef" perfect="2" imperfect="0"/>
+          <guess code="affd" perfect="1" imperfect="2"/>
+          <guess code="afdf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aacf" perfect="2" imperfect="0">
+          <guess code="acee" perfect="1" imperfect="1"/>
+          <guess code="acce" perfect="2" imperfect="0"/>
+          <guess code="acfe" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aafd" perfect="1" imperfect="2">
+          <guess code="aeed" perfect="2" imperfect="0"/>
+          <guess code="aedf" perfect="1" imperfect="2"/>
+          <guess code="afed" perfect="2" imperfect="1"/>
+          <guess code="aefd" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="2" imperfect="1">
+          <guess code="aede" perfect="1" imperfect="0"/>
+          <guess code="afde" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="acce" perfect="0" imperfect="3">
+        <guess code="ddbc" perfect="0" imperfect="1"/>
+        <guess code="ddcb" perfect="1" imperfect="0"/>
+        <guess code="dafc" perfect="0" imperfect="2"/>
+        <guess code="dacf" perfect="1" imperfect="1"/>
+        <guess code="daec" perfect="0" imperfect="3"/>
+        <guess code="dacc" perfect="1" imperfect="2"/>
+        <guess code="dace" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="cade" perfect="1" imperfect="2">
+        <guess code="aaaa" perfect="1" imperfect="1">
+          <guess code="cdbd" perfect="0" imperfect="0"/>
+          <guess code="dafd" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="2" imperfect="0">
+          <guess code="cddb" perfect="0" imperfect="0"/>
+          <guess code="dadf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="0" imperfect="3">
+          <guess code="adcc" perfect="1" imperfect="0"/>
+          <guess code="adfc" perfect="1" imperfect="1"/>
+          <guess code="adcf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="2">
+          <guess code="daed" perfect="1" imperfect="0"/>
+          <guess code="facd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aacc" perfect="2" imperfect="1">
+          <guess code="cafd" perfect="1" imperfect="1"/>
+          <guess code="fadc" perfect="2" imperfect="0"/>
+          <guess code="cacd" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="dade" perfect="1" imperfect="0"/>
+          <guess code="cadf" perfect="1" imperfect="1"/>
+          <guess code="cadc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="adec" perfect="0" imperfect="4"/>
+        <guess code="aaad" perfect="1" imperfect="3">
+          <guess code="adce" perfect="1" imperfect="1"/>
+          <guess code="eacd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="2">
+          <guess code="caed" perfect="1" imperfect="1"/>
+          <guess code="eadc" perfect="2" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="adae" perfect="2" imperfect="1">
+        <guess code="aaab" perfect="0" imperfect="1">
+          <guess code="dcbd" perfect="0" imperfect="1"/>
+          <guess code="dcdb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="0" imperfect="2">
+          <guess code="dadd" perfect="1" imperfect="0"/>
+          <guess code="fadd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="1">
+          <guess code="afcd" perfect="1" imperfect="1"/>
+          <guess code="afdc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaad" perfect="2" imperfect="0">
+          <guess code="addf" perfect="1" imperfect="1"/>
+          <guess code="adfd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="eadd" perfect="0" imperfect="3"/>
+        <guess code="aaac" perfect="1" imperfect="2">
+          <guess code="aecd" perfect="1" imperfect="1"/>
+          <guess code="aedc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aded" perfect="2" imperfect="1"/>
+        <guess code="adde" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="acce" perfect="3" imperfect="0">
+        <guess code="aaaf" perfect="1" imperfect="0">
+          <guess code="addd" perfect="1" imperfect="0"/>
+          <guess code="afdd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aedd" perfect="1" imperfect="1"/>
+        <guess code="aaad" perfect="2" imperfect="0">
+          <guess code="acdf" perfect="1" imperfect="1"/>
+          <guess code="acfd" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="1">
+          <guess code="aced" perfect="1" imperfect="1"/>
+          <guess code="acdc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaad" perfect="3" imperfect="0">
+          <guess code="acde" perfect="1" imperfect="1"/>
+          <guess code="accd" perfect="2" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="aaac" perfect="1" imperfect="3">
+        <guess code="dacd" perfect="1" imperfect="1"/>
+        <guess code="dadc" perfect="2" imperfect="0"/>
+      </guess>
+      <guess code="aacd" perfect="2" imperfect="2">
+        <guess code="addc" perfect="1" imperfect="2"/>
+        <guess code="cadd" perfect="2" imperfect="1"/>
+        <guess code="adcd" perfect="3" imperfect="0"/>
+      </guess>
+    </guess>
+    <guess code="aacd" perfect="1" imperfect="1">
+      <guess code="bebe" perfect="0" imperfect="0">
+        <guess code="fbfb" perfect="0" imperfect="2"/>
+        <guess code="abaf" perfect="1" imperfect="1">
+          <guess code="bffb" perfect="0" imperfect="2"/>
+          <guess code="bbfb" perfect="1" imperfect="1"/>
+          <guess code="fbbf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaff" perfect="2" imperfect="0">
+          <guess code="bbbf" perfect="1" imperfect="0"/>
+          <guess code="bfbf" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaea" perfect="0" imperfect="3">
+          <guess code="ebfb" perfect="0" imperfect="1"/>
+          <guess code="fbeb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="1" imperfect="2">
+          <guess code="bbeb" perfect="0" imperfect="0"/>
+          <guess code="bfeb" perfect="0" imperfect="1"/>
+          <guess code="ebbf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="2" imperfect="1">
+          <guess code="fbbe" perfect="0" imperfect="1"/>
+          <guess code="befb" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="3" imperfect="0">
+          <guess code="bbbe" perfect="0" imperfect="0"/>
+          <guess code="bfbe" perfect="0" imperfect="1"/>
+          <guess code="bebf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="ebeb" perfect="0" imperfect="4"/>
+        <guess code="aaab" perfect="2" imperfect="2">
+          <guess code="ebbe" perfect="0" imperfect="1"/>
+          <guess code="beeb" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="abde" perfect="0" imperfect="1">
+        <guess code="aabf" perfect="0" imperfect="1">
+          <guess code="bcbc" perfect="1" imperfect="0"/>
+          <guess code="bcfb" perfect="0" imperfect="2"/>
+          <guess code="bfbc" perfect="1" imperfect="1"/>
+          <guess code="bcbf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="babf" perfect="1" imperfect="0">
+          <guess code="cbbc" perfect="1" imperfect="1"/>
+          <guess code="bbbc" perfect="2" imperfect="0"/>
+          <guess code="cbfb" perfect="0" imperfect="3"/>
+          <guess code="fbbc" perfect="1" imperfect="2"/>
+          <guess code="cbbf" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aabf" perfect="0" imperfect="2">
+          <guess code="bceb" perfect="0" imperfect="1"/>
+          <guess code="bebc" perfect="1" imperfect="0"/>
+          <guess code="bdfb" perfect="0" imperfect="2"/>
+          <guess code="bdbf" perfect="2" imperfect="0"/>
+          <guess code="ffab" perfect="0" imperfect="3"/>
+          <guess code="ffba" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="bdbf" perfect="1" imperfect="1">
+          <guess code="cbeb" perfect="0" imperfect="2"/>
+          <guess code="ebbc" perfect="1" imperfect="1"/>
+          <guess code="bcbe" perfect="2" imperfect="0"/>
+          <guess code="bddb" perfect="2" imperfect="1"/>
+          <guess code="dbfb" perfect="0" imperfect="4"/>
+          <guess code="bfdb" perfect="1" imperfect="3"/>
+          <guess code="dbbf" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="badd" perfect="2" imperfect="0">
+          <guess code="cbbe" perfect="0" imperfect="1"/>
+          <guess code="fbdb" perfect="1" imperfect="1"/>
+          <guess code="bbdb" perfect="2" imperfect="0"/>
+          <guess code="dbdb" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="afab" perfect="0" imperfect="3">
+          <guess code="bdeb" perfect="1" imperfect="0"/>
+          <guess code="eeba" perfect="0" imperfect="2"/>
+          <guess code="eeab" perfect="2" imperfect="0"/>
+          <guess code="feba" perfect="0" imperfect="3"/>
+          <guess code="efba" perfect="1" imperfect="2"/>
+          <guess code="feab" perfect="2" imperfect="1"/>
+          <guess code="efab" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aadb" perfect="1" imperfect="2">
+          <guess code="bdbe" perfect="0" imperfect="2"/>
+          <guess code="dbeb" perfect="1" imperfect="1"/>
+          <guess code="bedb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="2" imperfect="1">
+          <guess code="dbbe" perfect="0" imperfect="1"/>
+          <guess code="ebdb" perfect="1" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="abce" perfect="1" imperfect="0">
+        <guess code="aaaf" perfect="0" imperfect="1">
+          <guess code="bdbd" perfect="0" imperfect="0"/>
+          <guess code="bfbd" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="baaf" perfect="1" imperfect="0">
+          <guess code="dbbd" perfect="0" imperfect="1"/>
+          <guess code="bbbd" perfect="1" imperfect="0"/>
+          <guess code="fbbd" perfect="0" imperfect="2"/>
+        </guess>
+        <guess code="aaaa" perfect="0" imperfect="2">
+          <guess code="bebd" perfect="0" imperfect="0"/>
+          <guess code="baff" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aabf" perfect="1" imperfect="1">
+          <guess code="bccb" perfect="0" imperfect="1"/>
+          <guess code="ebbd" perfect="1" imperfect="0"/>
+          <guess code="bfcb" perfect="0" imperfect="2"/>
+        </guess>
+        <guess code="baaf" perfect="2" imperfect="0">
+          <guess code="cbcb" perfect="0" imperfect="1"/>
+          <guess code="bbcb" perfect="1" imperfect="0"/>
+          <guess code="fbcb" perfect="0" imperfect="2"/>
+          <guess code="abff" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="baef" perfect="0" imperfect="3"/>
+        <guess code="aaaf" perfect="1" imperfect="2">
+          <guess code="becb" perfect="0" imperfect="0"/>
+          <guess code="baee" perfect="1" imperfect="0"/>
+          <guess code="bafe" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaaa" perfect="2" imperfect="1">
+          <guess code="ebcb" perfect="0" imperfect="0"/>
+          <guess code="abef" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="3" imperfect="0">
+          <guess code="abee" perfect="1" imperfect="0"/>
+          <guess code="abfe" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="cceb" perfect="0" imperfect="2">
+        <guess code="adad" perfect="0" imperfect="1">
+          <guess code="dfba" perfect="0" imperfect="2"/>
+          <guess code="fdba" perfect="1" imperfect="1"/>
+          <guess code="ddba" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="adad" perfect="1" imperfect="0">
+          <guess code="dfab" perfect="1" imperfect="1"/>
+          <guess code="fdab" perfect="2" imperfect="0"/>
+          <guess code="ddab" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="adaa" perfect="0" imperfect="2">
+          <guess code="dbbc" perfect="0" imperfect="1"/>
+          <guess code="bdbc" perfect="1" imperfect="0"/>
+          <guess code="deba" perfect="1" imperfect="1"/>
+          <guess code="edba" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="cdab" perfect="1" imperfect="1">
+          <guess code="fcba" perfect="0" imperfect="3"/>
+          <guess code="cfba" perfect="1" imperfect="2"/>
+          <guess code="deab" perfect="2" imperfect="1"/>
+          <guess code="edab" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="acaa" perfect="2" imperfect="0">
+          <guess code="cbdb" perfect="0" imperfect="1"/>
+          <guess code="bcdb" perfect="1" imperfect="0"/>
+          <guess code="cfab" perfect="1" imperfect="1"/>
+          <guess code="fcab" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="acaa" perfect="1" imperfect="2">
+          <guess code="ceba" perfect="1" imperfect="1"/>
+          <guess code="ecba" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="acab" perfect="2" imperfect="1">
+          <guess code="ccba" perfect="1" imperfect="2"/>
+          <guess code="ceab" perfect="2" imperfect="1"/>
+          <guess code="ecab" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="ccab" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="aeaf" perfect="1" imperfect="1">
+        <guess code="abbd" perfect="0" imperfect="0">
+          <guess code="bdcb" perfect="0" imperfect="3"/>
+          <guess code="dbcb" perfect="1" imperfect="2"/>
+          <guess code="bcbd" perfect="2" imperfect="1"/>
+          <guess code="cbbd" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaae" perfect="0" imperfect="2">
+          <guess code="bafc" perfect="1" imperfect="0"/>
+          <guess code="baec" perfect="1" imperfect="1"/>
+          <guess code="bade" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aace" perfect="1" imperfect="1">
+          <guess code="badf" perfect="1" imperfect="0"/>
+          <guess code="abfc" perfect="1" imperfect="1"/>
+          <guess code="abde" perfect="2" imperfect="0"/>
+          <guess code="abec" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="abdf" perfect="2" imperfect="0"/>
+        <guess code="aaae" perfect="0" imperfect="3">
+          <guess code="fafa" perfect="1" imperfect="1"/>
+          <guess code="eaea" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aaae" perfect="1" imperfect="2">
+          <guess code="affa" perfect="1" imperfect="1"/>
+          <guess code="faaa" perfect="2" imperfect="1"/>
+          <guess code="eaae" perfect="3" imperfect="0"/>
+          <guess code="eaaa" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="aaab" perfect="2" imperfect="1">
+          <guess code="aeea" perfect="1" imperfect="1"/>
+          <guess code="faaf" perfect="2" imperfect="0"/>
+          <guess code="afaa" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaae" perfect="3" imperfect="0">
+          <guess code="afaf" perfect="2" imperfect="0"/>
+          <guess code="aeae" perfect="3" imperfect="0"/>
+          <guess code="aeaa" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="aaea" perfect="0" imperfect="4">
+          <guess code="eafa" perfect="2" imperfect="1"/>
+          <guess code="faea" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="3">
+          <guess code="afea" perfect="1" imperfect="1"/>
+          <guess code="faae" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaae" perfect="2" imperfect="2">
+          <guess code="aefa" perfect="1" imperfect="2"/>
+          <guess code="eaaf" perfect="2" imperfect="1"/>
+          <guess code="afae" perfect="3" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="abce" perfect="2" imperfect="0">
+        <guess code="aaaf" perfect="0" imperfect="2">
+          <guess code="badd" perfect="1" imperfect="0"/>
+          <guess code="bafd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaaf" perfect="2" imperfect="0">
+          <guess code="abdd" perfect="1" imperfect="0"/>
+          <guess code="abfd" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="baed" perfect="0" imperfect="3"/>
+        <guess code="aaac" perfect="1" imperfect="2">
+          <guess code="bacf" perfect="1" imperfect="1"/>
+          <guess code="bacc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="abed" perfect="2" imperfect="1"/>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="abcf" perfect="1" imperfect="1"/>
+          <guess code="abcc" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="bace" perfect="2" imperfect="2"/>
+      </guess>
+      <guess code="acab" perfect="0" imperfect="3">
+        <guess code="cdba" perfect="0" imperfect="3"/>
+        <guess code="dcba" perfect="1" imperfect="2"/>
+        <guess code="cdab" perfect="2" imperfect="1"/>
+        <guess code="dcab" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="acae" perfect="1" imperfect="2">
+        <guess code="aadd" perfect="0" imperfect="2">
+          <guess code="badc" perfect="2" imperfect="0"/>
+          <guess code="dafa" perfect="1" imperfect="2"/>
+          <guess code="fada" perfect="2" imperfect="1"/>
+          <guess code="dada" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="abfc" perfect="1" imperfect="1">
+          <guess code="daaa" perfect="0" imperfect="1"/>
+          <guess code="adda" perfect="1" imperfect="0"/>
+          <guess code="daaf" perfect="0" imperfect="2"/>
+          <guess code="afda" perfect="1" imperfect="1"/>
+          <guess code="adfa" perfect="2" imperfect="0"/>
+          <guess code="abdc" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="2" imperfect="0">
+          <guess code="adaf" perfect="2" imperfect="0"/>
+          <guess code="adaa" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aada" perfect="0" imperfect="3">
+          <guess code="cafa" perfect="2" imperfect="0"/>
+          <guess code="daea" perfect="2" imperfect="1"/>
+          <guess code="eada" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="fdea" perfect="1" imperfect="2">
+          <guess code="caac" perfect="0" imperfect="1"/>
+          <guess code="caaa" perfect="1" imperfect="0"/>
+          <guess code="caaf" perfect="0" imperfect="2"/>
+          <guess code="faac" perfect="1" imperfect="1"/>
+          <guess code="aeda" perfect="1" imperfect="2"/>
+          <guess code="adea" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="1">
+          <guess code="daae" perfect="2" imperfect="0"/>
+          <guess code="acfa" perfect="1" imperfect="2"/>
+          <guess code="afac" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="3" imperfect="0">
+          <guess code="adae" perfect="2" imperfect="0"/>
+          <guess code="acaf" perfect="2" imperfect="1"/>
+          <guess code="acac" perfect="3" imperfect="0"/>
+          <guess code="acaa" perfect="2" imperfect="2"/>
+        </guess>
+        <guess code="caea" perfect="0" imperfect="4"/>
+        <guess code="eaac" perfect="1" imperfect="3"/>
+        <guess code="aaac" perfect="2" imperfect="2">
+          <guess code="acea" perfect="1" imperfect="2"/>
+          <guess code="caae" perfect="2" imperfect="1"/>
+          <guess code="aeac" perfect="3" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="acae" perfect="2" imperfect="1">
+        <guess code="aaaf" perfect="1" imperfect="1">
+          <guess code="daad" perfect="2" imperfect="0"/>
+          <guess code="faad" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaaf" perfect="2" imperfect="0">
+          <guess code="adad" perfect="2" imperfect="0"/>
+          <guess code="afad" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaaf" perfect="0" imperfect="3">
+          <guess code="caca" perfect="1" imperfect="1"/>
+          <guess code="faca" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="2">
+          <guess code="afca" perfect="1" imperfect="1"/>
+          <guess code="eaad" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="2" imperfect="1">
+          <guess code="acca" perfect="1" imperfect="1"/>
+          <guess code="aead" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="eaca" perfect="0" imperfect="4"/>
+        <guess code="aeca" perfect="1" imperfect="3"/>
+      </guess>
+      <guess code="abaa" perfect="3" imperfect="0">
+        <guess code="bacd" perfect="0" imperfect="2"/>
+        <guess code="abcd" perfect="2" imperfect="0"/>
+      </guess>
+      <guess code="abac" perfect="1" imperfect="3">
+        <guess code="cada" perfect="0" imperfect="3"/>
+        <guess code="acda" perfect="1" imperfect="2"/>
+        <guess code="daac" perfect="2" imperfect="1"/>
+        <guess code="adac" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="abad" perfect="2" imperfect="2">
+        <guess code="daca" perfect="0" imperfect="3"/>
+        <guess code="adca" perfect="1" imperfect="2"/>
+        <guess code="caad" perfect="2" imperfect="1"/>
+        <guess code="acad" perfect="3" imperfect="0"/>
+      </guess>
+    </guess>
+    <guess code="abac" perfect="1" imperfect="2">
+      <guess code="adae" perfect="0" imperfect="2">
+        <guess code="bfba" perfect="0" imperfect="1"/>
+        <guess code="beba" perfect="0" imperfect="2"/>
+        <guess code="bdba" perfect="1" imperfect="1"/>
+      </guess>
+      <guess code="abde" perfect="1" imperfect="1">
+        <guess code="bfab" perfect="0" imperfect="2"/>
+        <guess code="aaaf" perfect="1" imperfect="1">
+          <guess code="bbba" perfect="0" imperfect="1"/>
+          <guess code="fbba" perfect="0" imperfect="2"/>
+        </guess>
+        <guess code="aaad" perfect="0" imperfect="3">
+          <guess code="beab" perfect="1" imperfect="0"/>
+          <guess code="bdab" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaad" perfect="1" imperfect="2">
+          <guess code="ebba" perfect="0" imperfect="1"/>
+          <guess code="dbba" perfect="0" imperfect="2"/>
+        </guess>
+      </guess>
+      <guess code="aade" perfect="2" imperfect="0">
+        <guess code="aaaf" perfect="0" imperfect="1">
+          <guess code="bbab" perfect="1" imperfect="0"/>
+          <guess code="fbab" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaad" perfect="0" imperfect="2">
+          <guess code="ebab" perfect="1" imperfect="0"/>
+          <guess code="dbab" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="aade" perfect="0" imperfect="3">
+        <guess code="bcba" perfect="0" imperfect="1"/>
+        <guess code="bafa" perfect="1" imperfect="1"/>
+        <guess code="baea" perfect="1" imperfect="2"/>
+        <guess code="bada" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="aaad" perfect="1" imperfect="2">
+        <guess code="cbba" perfect="0" imperfect="1"/>
+        <guess code="bcab" perfect="1" imperfect="0"/>
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="baaf" perfect="2" imperfect="0"/>
+          <guess code="baae" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="baaa" perfect="2" imperfect="1"/>
+        <guess code="baad" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="aade" perfect="2" imperfect="1">
+        <guess code="cbab" perfect="0" imperfect="1"/>
+        <guess code="abfa" perfect="1" imperfect="1"/>
+        <guess code="abea" perfect="1" imperfect="2"/>
+        <guess code="abda" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="aaad" perfect="3" imperfect="0">
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="abaf" perfect="2" imperfect="0"/>
+          <guess code="abae" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="abaa" perfect="2" imperfect="1"/>
+        <guess code="abad" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="baca" perfect="0" imperfect="4"/>
+      <guess code="aaab" perfect="2" imperfect="2">
+        <guess code="abca" perfect="1" imperfect="2"/>
+        <guess code="baac" perfect="2" imperfect="1"/>
+      </guess>
+    </guess>
+    <guess code="abcd" perfect="2" imperfect="0">
+      <guess code="beae" perfect="0" imperfect="1">
+        <guess code="ffbb" perfect="0" imperfect="1"/>
+        <guess code="bfbb" perfect="1" imperfect="0"/>
+        <guess code="efbb" perfect="0" imperfect="2"/>
+        <guess code="febb" perfect="1" imperfect="1"/>
+        <guess code="bebb" perfect="2" imperfect="0"/>
+        <guess code="eebb" perfect="1" imperfect="2"/>
+      </guess>
+      <guess code="acae" perfect="1" imperfect="0">
+        <guess code="aaaf" perfect="0" imperfect="0">
+          <guess code="bbbb" perfect="0" imperfect="0"/>
+          <guess code="fbbb" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="ebbb" perfect="0" imperfect="1"/>
+        <guess code="aaaa" perfect="1" imperfect="1">
+          <guess code="aaff" perfect="2" imperfect="0"/>
+          <guess code="aafa" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="2" imperfect="0">
+          <guess code="aaaf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaaa" perfect="1" imperfect="2">
+          <guess code="aaef" perfect="2" imperfect="0"/>
+          <guess code="aaea" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="2" imperfect="1">
+          <guess code="aaee" perfect="2" imperfect="0"/>
+          <guess code="aafe" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaae" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="acbe" perfect="0" imperfect="2">
+        <guess code="bdad" perfect="1" imperfect="0">
+          <guess code="dfbb" perfect="0" imperfect="2"/>
+          <guess code="fdbb" perfect="1" imperfect="1"/>
+          <guess code="bdbb" perfect="2" imperfect="0"/>
+          <guess code="ddbb" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="fafb" perfect="0" imperfect="2"/>
+        <guess code="adab" perfect="1" imperfect="1">
+          <guess code="cfbb" perfect="1" imperfect="0"/>
+          <guess code="fabf" perfect="0" imperfect="2"/>
+          <guess code="debb" perfect="1" imperfect="1"/>
+          <guess code="edbb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="baaf" perfect="2" imperfect="0">
+          <guess code="ccbb" perfect="0" imperfect="1"/>
+          <guess code="bcbb" perfect="1" imperfect="0"/>
+          <guess code="fcbb" perfect="0" imperfect="2"/>
+        </guess>
+        <guess code="aaee" perfect="0" imperfect="3">
+          <guess code="eafb" perfect="1" imperfect="1"/>
+          <guess code="faeb" perfect="2" imperfect="0"/>
+          <guess code="eaeb" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaaa" perfect="1" imperfect="2">
+          <guess code="cebb" perfect="0" imperfect="0"/>
+          <guess code="eabf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="2" imperfect="1">
+          <guess code="ecbb" perfect="0" imperfect="0"/>
+          <guess code="eabe" perfect="1" imperfect="0"/>
+          <guess code="fabe" perfect="1" imperfect="1"/>
+        </guess>
+      </guess>
+      <guess code="baef" perfect="1" imperfect="1">
+        <guess code="aaac" perfect="0" imperfect="1">
+          <guess code="dbbb" perfect="0" imperfect="0"/>
+          <guess code="cbbb" perfect="0" imperfect="1"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="0">
+          <guess code="aada" perfect="2" imperfect="1"/>
+          <guess code="aaac" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="1" imperfect="1">
+          <guess code="aade" perfect="2" imperfect="0"/>
+          <guess code="aafc" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaac" perfect="2" imperfect="0">
+          <guess code="aadf" perfect="2" imperfect="0"/>
+          <guess code="aaec" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="0" imperfect="3">
+          <guess code="aebe" perfect="1" imperfect="1"/>
+          <guess code="affb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="2">
+          <guess code="afbf" perfect="1" imperfect="1"/>
+          <guess code="aeeb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="0" imperfect="4">
+          <guess code="afbe" perfect="1" imperfect="1"/>
+          <guess code="aefb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaab" perfect="1" imperfect="3">
+          <guess code="aebf" perfect="1" imperfect="1"/>
+          <guess code="afeb" perfect="2" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="aecf" perfect="2" imperfect="0">
+        <guess code="aaaa" perfect="1" imperfect="0">
+          <guess code="aadd" perfect="2" imperfect="0"/>
+          <guess code="aaad" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaae" perfect="1" imperfect="1">
+          <guess code="aafd" perfect="2" imperfect="0"/>
+          <guess code="aaed" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaaa" perfect="2" imperfect="0">
+          <guess code="aacc" perfect="2" imperfect="0"/>
+          <guess code="aaca" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aace" perfect="2" imperfect="1"/>
+        <guess code="aacf" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="acbe" perfect="0" imperfect="3">
+        <guess code="aadd" perfect="0" imperfect="2">
+          <guess code="dafb" perfect="1" imperfect="1"/>
+          <guess code="fadb" perfect="2" imperfect="0"/>
+          <guess code="dadb" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aaaa" perfect="1" imperfect="1">
+          <guess code="cdbb" perfect="0" imperfect="0"/>
+          <guess code="dabf" perfect="1" imperfect="0"/>
+        </guess>
+        <guess code="dcbb" perfect="2" imperfect="0"/>
+        <guess code="aada" perfect="0" imperfect="3">
+          <guess code="cafb" perfect="1" imperfect="0"/>
+          <guess code="daeb" perfect="1" imperfect="1"/>
+          <guess code="eadb" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="aaaf" perfect="1" imperfect="2">
+          <guess code="cabc" perfect="1" imperfect="0"/>
+          <guess code="fabc" perfect="1" imperfect="1"/>
+          <guess code="cabf" perfect="2" imperfect="0"/>
+        </guess>
+        <guess code="dabe" perfect="2" imperfect="1"/>
+        <guess code="caeb" perfect="0" imperfect="4"/>
+        <guess code="eabc" perfect="1" imperfect="3"/>
+        <guess code="cabe" perfect="2" imperfect="2"/>
+      </guess>
+      <guess code="abde" perfect="1" imperfect="2">
+        <guess code="aaaf" perfect="0" imperfect="2">
+          <guess code="cacb" perfect="1" imperfect="0"/>
+          <guess code="facb" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aabf" perfect="1" imperfect="1">
+          <guess code="acbc" perfect="2" imperfect="0"/>
+          <guess code="acfb" perfect="1" imperfect="2"/>
+          <guess code="afbc" perfect="2" imperfect="1"/>
+          <guess code="acbf" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aadc" perfect="2" imperfect="0"/>
+        <guess code="aabf" perfect="0" imperfect="3">
+          <guess code="eacb" perfect="1" imperfect="1"/>
+          <guess code="dabd" perfect="2" imperfect="0"/>
+          <guess code="fabd" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aabc" perfect="1" imperfect="2">
+          <guess code="adfb" perfect="1" imperfect="1"/>
+          <guess code="adbf" perfect="2" imperfect="0"/>
+          <guess code="aceb" perfect="1" imperfect="2"/>
+          <guess code="aebc" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aabf" perfect="2" imperfect="1">
+          <guess code="addb" perfect="1" imperfect="1"/>
+          <guess code="acbe" perfect="2" imperfect="0"/>
+          <guess code="afdb" perfect="1" imperfect="2"/>
+        </guess>
+        <guess code="eabd" perfect="0" imperfect="4"/>
+        <guess code="adeb" perfect="1" imperfect="3"/>
+        <guess code="aaab" perfect="2" imperfect="2">
+          <guess code="adbe" perfect="1" imperfect="1"/>
+          <guess code="aedb" perfect="2" imperfect="0"/>
+        </guess>
+      </guess>
+      <guess code="cebf" perfect="2" imperfect="1">
+        <guess code="adbd" perfect="1" imperfect="0"/>
+        <guess code="accb" perfect="0" imperfect="2"/>
+        <guess code="afbd" perfect="1" imperfect="1"/>
+        <guess code="aebd" perfect="2" imperfect="0"/>
+        <guess code="afcb" perfect="0" imperfect="3"/>
+        <guess code="aecb" perfect="1" imperfect="2"/>
+      </guess>
+      <guess code="aacd" perfect="3" imperfect="0"/>
+      <guess code="aaab" perfect="0" imperfect="4">
+        <guess code="dabc" perfect="1" imperfect="1"/>
+        <guess code="cadb" perfect="2" imperfect="0"/>
+      </guess>
+      <guess code="acbc" perfect="1" imperfect="3">
+        <guess code="dacb" perfect="0" imperfect="3"/>
+        <guess code="cabd" perfect="1" imperfect="2"/>
+        <guess code="acdb" perfect="2" imperfect="1"/>
+        <guess code="adbc" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="aaab" perfect="2" imperfect="2">
+        <guess code="acbd" perfect="1" imperfect="1"/>
+        <guess code="adcb" perfect="2" imperfect="0"/>
+      </guess>
+    </guess>
+    <guess code="abbc" perfect="2" imperfect="1">
+      <guess code="daae" perfect="0" imperfect="2">
+        <guess code="faab" perfect="2" imperfect="0"/>
+        <guess code="eaab" perfect="2" imperfect="1"/>
+        <guess code="daab" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="deab" perfect="1" imperfect="1">
+        <guess code="faba" perfect="0" imperfect="2"/>
+        <guess code="afab" perfect="2" imperfect="0"/>
+        <guess code="eaba" perfect="0" imperfect="3"/>
+        <guess code="daba" perfect="1" imperfect="2"/>
+        <guess code="adab" perfect="2" imperfect="1"/>
+        <guess code="aeab" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="adae" perfect="2" imperfect="0">
+        <guess code="afba" perfect="1" imperfect="1"/>
+        <guess code="aeba" perfect="1" imperfect="2"/>
+        <guess code="adba" perfect="2" imperfect="1"/>
+      </guess>
+      <guess code="bade" perfect="0" imperfect="3">
+        <guess code="caab" perfect="1" imperfect="1"/>
+        <guess code="bafb" perfect="2" imperfect="0"/>
+        <guess code="baeb" perfect="2" imperfect="1"/>
+        <guess code="badb" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="bade" perfect="1" imperfect="2">
+        <guess code="acab" perfect="0" imperfect="2"/>
+        <guess code="caba" perfect="1" imperfect="1"/>
+        <guess code="babf" perfect="2" imperfect="0"/>
+        <guess code="babd" perfect="2" imperfect="1"/>
+        <guess code="babe" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="abde" perfect="2" imperfect="1">
+        <guess code="acba" perfect="1" imperfect="1"/>
+        <guess code="abfb" perfect="2" imperfect="0"/>
+        <guess code="abeb" perfect="2" imperfect="1"/>
+        <guess code="abdb" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="aade" perfect="3" imperfect="0">
+        <guess code="abbf" perfect="1" imperfect="0"/>
+        <guess code="abbd" perfect="1" imperfect="1"/>
+        <guess code="abbe" perfect="2" imperfect="0"/>
+      </guess>
+      <guess code="bacb" perfect="0" imperfect="4"/>
+      <guess code="aaab" perfect="2" imperfect="2">
+        <guess code="babc" perfect="1" imperfect="1"/>
+        <guess code="abcb" perfect="2" imperfect="0"/>
+      </guess>
+    </guess>
+    <guess code="abac" perfect="2" imperfect="2">
+      <guess code="baba" perfect="0" imperfect="3"/>
+      <guess code="baab" perfect="1" imperfect="2"/>
+      <guess code="abba" perfect="2" imperfect="1"/>
+      <guess code="abab" perfect="3" imperfect="0"/>
+    </guess>
+    <guess code="abbc" perfect="3" imperfect="0">
+      <guess code="aaad" perfect="1" imperfect="1">
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="aafb" perfect="2" imperfect="0"/>
+          <guess code="aaeb" perfect="2" imperfect="1"/>
+        </guess>
+        <guess code="aadb" perfect="2" imperfect="1"/>
+        <guess code="aaab" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="aade" perfect="1" imperfect="2">
+        <guess code="aaaf" perfect="1" imperfect="0">
+          <guess code="babb" perfect="1" imperfect="0"/>
+          <guess code="fabb" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aaad" perfect="1" imperfect="1">
+          <guess code="eabb" perfect="1" imperfect="0"/>
+          <guess code="dabb" perfect="1" imperfect="1"/>
+        </guess>
+        <guess code="aacb" perfect="2" imperfect="0"/>
+      </guess>
+      <guess code="cabb" perfect="1" imperfect="3"/>
+      <guess code="aaad" perfect="2" imperfect="0">
+        <guess code="aaae" perfect="2" imperfect="0">
+          <guess code="aabf" perfect="2" imperfect="0"/>
+          <guess code="aabe" perfect="3" imperfect="0"/>
+        </guess>
+        <guess code="aaba" perfect="2" imperfect="1"/>
+        <guess code="aabd" perfect="3" imperfect="0"/>
+      </guess>
+      <guess code="adae" perfect="2" imperfect="1">
+        <guess code="afbb" perfect="1" imperfect="0"/>
+        <guess code="aebb" perfect="1" imperfect="1"/>
+        <guess code="adbb" perfect="2" imperfect="0"/>
+      </guess>
+      <guess code="acbb" perfect="2" imperfect="2"/>
+      <guess code="aaaa" perfect="3" imperfect="0">
+        <guess code="abbb" perfect="1" imperfect="0"/>
+        <guess code="aabc" perfect="2" imperfect="0"/>
+      </guess>
+    </guess>
+  </guess>
+</strategy>
