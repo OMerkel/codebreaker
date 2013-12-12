@@ -50,7 +50,8 @@ Iteratively a guess is stated to be compared towards a secret four digit code wi
     * __Perfect matches__ (positional matches) indicate that a digit is included in the secret and is placed at correct position inside the guess.
     * __Imperfect matches__ (non positional matches) indicate that a digit is included in the secret but the position is still incorrect.
 * Thus the secret code is found if four perfect matches and no imperfect match are indicated on a check.
-* Digit values may occur multiple times. No digit of the guess will count multiple times in the indicated result. Indicating perfect matches over imperfect ones is prioritized.
+
+Digit values may occur multiple times. No digit of the guess will count multiple times in the indicated result. Indicating perfect matches over imperfect ones is prioritized.
 
     I assume you try to find a 4 digit secret in Codebreaker.
     Each digit has a value ranged from letter 'a' to letter 'f'.
