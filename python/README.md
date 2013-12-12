@@ -42,7 +42,15 @@ To start the application directly use:
 
     $ python followme.py
 
-Sample of an interactive session. The user has to enter the determined results of perfect and imperfect matches:
+Sample of an interactive session is shown as follows. The user has to enter the determined results of perfect and imperfect matches here.
+
+Iteratively a guess is stated to be compared towards a secret four digit code with six possible values per digit (letters from a to f).
+* Objective is to match the secret code perfectly indicated by a result __> 4,0__.
+* On each guess a result indicates the amount of __perfect matches__ and __imperfect matches__ represented as numerical values.
+    * __Perfect matches__ (positional matches) indicate that a digit is included in the secret and is placed at correct position inside the guess.
+    * __Imperfect matches__ (non positional matches) indicate that a digit is included in the secret but the position is still incorrect.
+* Thus the secret code is found if four perfect matches and no imperfect match are indicated on a check.
+* Digit values may occur multiple times. No digit of the guess will count multiple times in the indicated result. Indicating perfect matches over imperfect ones is prioritized.
 
     I assume you try to find a 4 digit secret in Codebreaker.
     Each digit has a value ranged from letter 'a' to letter 'f'.
