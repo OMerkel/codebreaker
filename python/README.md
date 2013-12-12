@@ -1,12 +1,14 @@
 Logos and trademarks belong to their respective owners.
 
-The MIT License (MIT)
+__The MIT License (MIT)__
 
 Copyright (c) 2013, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
-Follow Me
- An application to advise on guesses of Code Breaker implementations
 
-Contributors:
+__Follow Me__
+
+* An application to advise on guesses of Code Breaker implementations
+
+_Contributors:_
 * Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -29,16 +31,16 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-"He who would valiant be `gainst all disaster,
-Let him in constancy follow the Master."
+_"He who would valiant be `gainst all disaster,
+Let him in constancy follow the Master."_
 
 To start python doctest use:
 
-$ python -m doctest -v followme.py
+    $ python -m doctest -v followme.py
 
 To start the application directly use:
 
-$ python followme.py
+    $ python followme.py
 
 Sample of an interactive session. The user has to enter the determined results of perfect and imperfect matches:
 
