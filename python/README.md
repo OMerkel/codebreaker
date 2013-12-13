@@ -72,4 +72,4 @@ Digit values may occur multiple times. No digit of the guess will count multiple
 
 | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html"><img height="60" alt="Start Code Breaker 4.6 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-60.png" /></a> |
 | --- |
-| <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html">Start Code Breaker 4.6 Vanilla online</a> session to manually test __followme.py__ against! |
+| <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html">Start Code Breaker 4.6 Vanilla online</a> session to manually test __followme.py__ against!<br />Please run __followme.py__ on your local Python in that case. |
