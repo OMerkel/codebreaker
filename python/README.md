@@ -34,11 +34,11 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 _"He who would valiant be `gainst all disaster,
 Let him in constancy follow the Master."_
 
-To start python doctest use:
+To __start python doctest__ use:
 
     $ python -m doctest -v followme.py
 
-To start the application directly use:
+To __start the application__ directly use:
 
     $ python followme.py
 
