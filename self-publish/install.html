@@ -28,5 +28,48 @@
     <figcaption style="width: 120px;">Install Code Breaker 5.10 Plain Vanilla.
     </figcaption>
   </figure>
+  <br clear="all" />
+  <div class="question">Why am I getting an
+    <span class="error">Install failed, error: MULTIPLE_APPS_PER_ORIGIN_FORBIDDEN</span>
+    on installing the applications?
+  </div>
+  <div class="answer">
+    This simply means you already installed an application referring to or hosted
+    on the same URL base path. The term ORIGIN does not exactly match a set of components
+    from a URI. On <a href="https://developer.mozilla.org">Mozilla Developer Network</a> (MDN) the term ORIGIN is therefore explained by examples given.
+    <ul>
+      <li>This application you installed could possibly be a different application but
+      from the same URL base path. In other words it is not neccessarily the same application
+      that is already installed.</li>
+      <li>To get more detailled explanation on this security related matter and deep dive into the subject visit
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Apps.install">MDN - Apps.install</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript">
+            MDN - Same origin policy for JavaScript</a></li>
+          <li>Mind differences on file: protocol URIs - <a href="https://developer.mozilla.org/en-US/docs/Same-origin_policy_for_file:_URIs">
+            MDN - Same origin policy for file: URIs</a></li>
+          <li><a href="http://www.w3.org/Security/wiki/Same_Origin_Policy">W3C - Same Origin Policy</a></li>
+        </ul>
+      </li>
+    </ul>
+    So how to proceed?
+    <ul>
+      <li>First of all check whether the application of your choice is not already installed.
+        If so then enjoy the application!</li>
+      <li>If you are sure the application of your choice is not available on your device then
+      <ul>
+        <li>one choice might be that the conflicting other application has to be removed before
+          installing the intended application or</li>
+        <li>you could download the newly intended application from its source repository or home page.</li>
+        <li>On a FirefoxOS enabled device any downloaded application fully available in source 
+          can be uploaded using the corresponding feature from inside the
+          FirefoxOS Simulator onto the connected target device.</li>
+        <li>Alternatively it is possible to visit the online version of the application if available from
+          its home page and use your browser's offline.appcache to store the whole application for offline usage.
+          In that case you have to enable and allow the offline storage for your browser.</li>
+      </ul>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
