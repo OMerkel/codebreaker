@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Breaker 4.6</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css"
+    href="thirdparty/jquery.mobile-1.4.2/jquery.mobile-1.4.2.css" />
+  <script type="text/javascript" src="thirdparty/jquery-1.11.0.js"></script>
+  <script type="text/javascript"
+    src="thirdparty/jquery.mobile-1.4.2/jquery.mobile-1.4.2.js"></script>
+
+  <script type="text/javascript" src="js/secretgenerator.js"></script>
+  <script type="text/javascript" src="js/secret.js"></script>
+  <script type="text/javascript" src="js/i18n_main.js" defer></script>
+  <script type="text/javascript" src="js/main.js" defer></script>
+</head>
+<body>
+<div data-role="page">
+  <div data-role="header">
+    <h1><small>Code Breaker 4.6</small></h1>
+    <a data-icon="check" id="check"><span id="checking">Check</span></a>
+  </div><!-- /header -->
+  <div data-role="controlgroup" data-type="horizontal" id="code_keys">
+    <a id="selected_a" data-role="button" data-icon="plus" data-iconpos="top">a</a>
+    <a id="selected_b" data-role="button" data-icon="plus" data-iconpos="top">b</a>
+    <a id="selected_c" data-role="button" data-icon="plus" data-iconpos="top">c</a>
+    <a id="selected_d" data-role="button" data-icon="plus" data-iconpos="top">d</a>
+    <a id="selected_e" data-role="button" data-icon="plus" data-iconpos="top">e</a>
+    <a id="selected_f" data-role="button" data-icon="plus" data-iconpos="top">f</a>
+  </div><!-- controlgroup -->
+  <div data-role="controlgroup" data-type="horizontal" id="current_guess">
+    <a id="guess_digit_0" data-role="button" data-icon="delete" data-iconpos="top">
+      <span id="digit0">&nbsp;</span></a>
+    <a id="guess_digit_1" data-role="button" data-icon="delete" data-iconpos="top">
+      <span id="digit1">&nbsp;</span></a>
+    <a id="guess_digit_2" data-role="button" data-icon="delete" data-iconpos="top">
+      <span id="digit2">&nbsp;</span></a>
+    <a id="guess_digit_3" data-role="button" data-icon="delete" data-iconpos="top">
+      <span id="digit3">&nbsp;</span></a>
+  </div><!-- controlgroup -->
+<center>
+  <div data-role="content" style="max-width:300px;">
+    <ul data-role="listview" id="log">
+      <!-- li>
+        <h3>abcd</h3>
+        <p class="ui-li-aside">perfect <strong>0</strong><br />imperfect <strong>0</strong></p>
+      </li -->
+    </ul>
+  </div><!-- content -->
+</center>
+  <div data-role="footer" data-position="fixed" data-theme="c">
+    <div data-role="navbar" data-iconpos="top">
+      <ul>
+      <li><a href="index.html" target="_top" data-icon="gear"><span id="new">New</span></a></li>
+      <li><a href="#main-menu" data-icon="bars" data-rel="popup"
+        data-transition="slideup"><span id="menu">Menu</span>&#8230;</a></li>
+      </ul>
+    </div><!-- /navbar -->
+  </div><!-- /footer -->
+
+  <div data-role="popup" id="main-menu" data-theme="c">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+      data-iconpos="notext" class="ui-btn-left">Close</a>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="divider" data-theme="a"><span id="selectmenuentry">Select menu entry</span>:</li>
+      <li><a href="#language-menu" data-icon="grid" data-rel="page"
+        data-transition="slideup"><span id="language">Idiom</span>&#8230;</a></li>
+      <li><a href="#test-menu" data-icon="check" data-rel="page"
+        data-transition="slideup"><span id="testing">Testing</span>&#8230;</a></li>
+      <li><a href="#about-page" data-icon="info" data-rel="page"
+        data-transition="pop"><span id="about">About</span>&#8230;</a></li>
+      <li><a href="#license-page" data-icon="info" data-rel="page"
+        data-transition="pop"><span id="license">License</span>&#8230;</a></li>
+    </ul>
+  </div><!-- /popup -->
+
+</div><!-- /page -->
+
+<div data-role="page" id="language-menu">
+  <div data-role="header">
+    <h1><small><span id="languageselection">Language selection</span></small></h1>
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+      data-iconpos="notext" class="ui-btn-left">Close</a>
+  </div><!-- /header -->
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a target="_top" data-icon="grid" id="de-de">de-de</a></li>
+      <li><a target="_top" data-icon="grid" id="en-usuk">en-us/uk</a></li>
+    </ul>
+  </div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="test-menu">
+  <div data-role="header">
+    <h1><small><span id="environment">Choose test environment</span></small></h1>
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+      data-iconpos="notext" class="ui-btn-left">Close</a>
+  </div><!-- /header -->
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="bdd-jasmine.html" target="_top"
+        data-icon="grid">Jasmine Tests</a></li>
+      <li><a href="bdd-qunit.html" target="_top"
+        data-icon="grid">QUnit Tests</a></li>
+    </ul>
+  </div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="about-page">
+  <div data-role="header">
+    <h1><small><span id="environment">About</span></small></h1>
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+      data-iconpos="notext" class="ui-btn-left">Close</a>
+  </div><!-- /header -->
+  <div data-role="content">
+    <p><b>Code Breaker 4.6</b> is derived from a game called
+      <i>Bulls and Cows</i> of unknown origin. It's game principle is
+      public domain. There are commercial versions of <i>Bulls and Cows</i> from
+      other parties using different names or trademarks being published,
+      distributed, and available as well. <i>Code Breaker 4.6</i> is MIT licensed
+      and just uses the public domain principle of the game <i>Bulls and Cows</i>.
+      It comes bundled with unmodified third party software libraries
+      using free software licensing.</p>
+    <h3>Rules</h3>
+    <p>The rules of <i>Code Breaker 4.6</i> are as follows.</p>
+    <ul>
+      <li>Iteratively a guess is stated to be compared towards a
+        secret four digit code with six possible values per digit (letters
+        from <b>a</b> to <b>f</b>).</li>
+      <li>Objective is to match the secret code perfectly.</li>
+      <li>On each guess a result indicates the amount of perfect
+        matches and imperfect matches represented as numerical values.
+        <ul>
+          <li>Perfect matches indicate that a digit is included in
+            the secret and is placed at correct position
+            inside the guess.</li>
+          <li>Imperfect matches indicate that a digit is included
+            in the secret but the position is still incorrect.</li>
+        </ul>
+        </li>
+      <li>Thus the secret code is found if four perfect matches
+        and no imperfect match are indicated on a check.</li>
+      <li>Digit values may occur multiple times. No digit of the
+        guess will count multiple times in the indicated result.
+        Indicating perfect matches over imperfect ones is
+        prioritized. Previous check results are kept visible
+        in a log to use for analysis.</li>
+    </ul>
+    <a href="#" data-role="button" data-icon="check"
+      data-rel="back" data-theme="c">Ok</a>
+  </div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="license-page">
+  <div data-role="header">
+    <h1><small><span id="environment">Legal</span></small></h1>
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+      data-iconpos="notext" class="ui-btn-left">Close</a>
+  </div><!-- /header -->
+  <div data-role="content">
+    <h3>License for Code Breaker 4.6</h3>
+    <figure style='float: right; max-width: 300px; min-width: 110px;
+      width: 30%; border: 1px solid #aaa; padding: 2px 8px 2px 2px;
+      border-radius: 8px;'>
+      <img style='max-width: 300px; width: 100%;
+        border: 1px solid #aaa; padding: 2px;
+        border-radius: 6px 6px 0 0;'
+        alt="Oliver Merkel" src="img/oliver.jpg" />
+      <!-- source: own work -->
+      <figcaption style='font-size: 80%; width: 100%;
+        border: 1px solid #aaa; padding: 2px;
+        border-radius: 0 0 6px 6px; background: #eee;'
+        <p>Oliver Merkel, own work, Copyright (c) 2013<br />
+        <a rel="license" target="_blank"
+        href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US">
+        <img alt="Creative Commons License" src="img/icons/cc-by-nc-nd.png" style="max-width:100%;">
+        </a><br />This image is licensed under a <a rel="license" target="_blank"
+        href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US">
+        Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.</p>
+      </figcaption>
+    </figure>
+    <h3>Copyright Notice</h3>
+    <p>Copyright 2014, Oliver Merkel, Merkel(dot)Oliver(at) web(dot)de</p>
+    <p>Code Breaker 4.6</p>
+
+    <p>Contributors:</p>
+    <ul>
+      <li>Oliver Merkel, Merkel(dot)Oliver (at) web(dot)de</li>
+    </ul>
+    <p>Logos and trademarks belong to their respective owners.</p>
+    <br clear='all' />
+    <div data-role="collapsible-set" data-iconpos="right"
+      data-collapsed-icon="arrow-l" data-expanded-icon="arrow-d">
+      <div data-role="collapsible" data-collapsed="false">
+        <h3>The MIT License (MIT)</h3>
+        <p>Permission is hereby granted, free of charge, to any person obtaining
+          a copy of this software and associated documentation files (the
+          "Software"), to deal in the Software without restriction, including
+          without limitation the rights to use, copy, modify, merge, publish,
+          distribute, sublicense, and/or sell copies of the Software, and to
+          permit persons to whom the Software is furnished to do so, subject to
+          the following conditions:</p>
+
+        <p>The above copyright notice and this permission notice shall be
+          included in all copies or substantial portions of the Software.</p>
+
+        <p><code>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+          EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+          MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+          NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+          LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+          OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+          WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</code></p>
+      </div><!-- collapsible -->
+      <div data-role="collapsible">
+        <h3>Third Party Code Licenses</h3>
+        <p>Code Breaker 4.6 uses unmodified independend libraries provided by
+          <b>third parties</b>. Since their licenses might vary the
+          corresponding information is <b>externally linked</b> below.
+          Thus <b>these external links</b> will enable you to reproduce
+          any copyright notice, any related list of conditions, disclaimers,
+          and especially the copyright holders and authors of the
+          corresponding third party functionality.</p>
+        <a href="https://github.com/pivotal/jasmine" data-role="button" 
+          rel="external" target="_blank" type="text/html"
+          title="Jasmine - Repository"><img
+          src="thirdparty/jasmine-standalone-1.3.1/jasmine_favicon.png"
+          width="16" height="16" />Jasmine: MIT</a>
+        <a href="https://github.com/jquery/qunit" data-role="button"
+          rel="external" target="_blank" type="text/html"
+          title="QUnit - Repository"><img
+          src="thirdparty/qunit-1.14.0/favicon.ico" />QUnit: MIT</a>
+        <a href="https://github.com/jquery/jquery" data-role="button"
+          rel="external" target="_blank" type="text/html"
+          title="jQuery - Repository"><img
+          src="thirdparty/jquery-favicon.ico" />jQuery: MIT</a>
+        <a href="https://github.com/jquery/jquery-mobile" data-role="button"
+          rel="external" target="_blank" type="text/html"
+          title="jQuery Mobile - Repository"><img
+          src="thirdparty/jquery.mobile-1.4.2/demos/favicon.ico" />jQuery
+          Mobile: MIT</a>
+      </div><!-- collapsible -->
+    </div><!-- collapsible-set -->
+    <a href="#" data-role="button" data-icon="check"
+      data-rel="back" data-theme="c">Ok</a>
+  </div><!-- /content -->
+</div><!-- /page -->
+</body>
+</html>
