@@ -3,7 +3,7 @@ Logos and trademarks belong to their respective owners.
 
 The MIT License (MIT)
 
-Copyright (c) 2013, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
+Copyright (c) 2014, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
 Code Breaker 4.6
 
 Contributors:
