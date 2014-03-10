@@ -10,11 +10,14 @@ function type(key) {
 }
 
 function render() {
+  var lowRes = (window.innerWidth < 350) || (window.innerHeight< 350);
   for(var digit=0; digit<guess.length; digit++) {
     $('#digit' + digit).html(empty == guess[digit] ? '&nbsp;': guess[digit]);
   }
   if( -1 == guess.indexOf(empty) ) {
-    $('#code_keys').hide(1000);
+    if(lowRes) {
+      $('#code_keys').hide(1000);
+    }
     $('#check').show();
   }
   else {
@@ -22,7 +25,9 @@ function render() {
     $('#check').hide();
   }
   if( noGuess == guess ) {
-    $('#current_guess').hide(1000);
+    if(lowRes) {
+      $('#current_guess').hide(1000);
+    }
   }
   else {
     $('#current_guess').show(1000);
