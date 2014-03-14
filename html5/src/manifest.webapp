@@ -1,7 +1,7 @@
 {
 	"version": "1.1",
-	"name": "Breaker4.6",
-	"description": "Breaker4.6",
+	"name": "CodeBreaker",
+	"description": "Code Breaker",
 	"launch_path": "/index.html",
 	"icons": {
 		"16": "/img/icons/codebreaker-16.png",
@@ -20,7 +20,7 @@
 	"installs_allowed_from": ["*"],
 	"locales": {
 		"de": {
-			"description": "Breaker4.6",
+			"description": "Code Breaker",
 			"developer": {
 				"url": "https://github.com/OMerkel"
 			}

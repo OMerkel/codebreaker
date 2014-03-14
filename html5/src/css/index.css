@@ -1,0 +1,33 @@
+
+.mybutton {
+  font-size: 78%;
+  padding: 30px 12.5px 4px 12.5px;
+}
+
+figure {
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  float: right;
+  max-width: 300px;
+  min-width: 110px;
+  padding: 2px 8px 2px 2px;
+  width: 30%;
+}
+
+figure img.author {
+  border: 1px solid #aaa;
+  border-radius: 6px 6px 0 0;
+  max-width: 300px;
+  padding: 2px;
+  width: 100%;
+}
+
+figcaption {
+  background: #eee;
+  border: 1px solid #aaa;
+  border-radius: 0 0 6px 6px;
+  font-size: 80%;
+  padding: 2px;
+  width: 100%;
+}
+
