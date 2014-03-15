@@ -1,5 +1,14 @@
-Copyright 2013 jQuery Foundation and other contributors
-http://jquery.com/
+
+Logos and trademarks belong to their respective owners.
+
+The MIT License (MIT)
+
+Copyright (c) 2013, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
+Follow Me
+ An application to advise on guesses of Code Breaker implementations
+
+Contributors:
+* Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
