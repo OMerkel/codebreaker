@@ -3,22 +3,17 @@ Code Breaker
 
 __Keywords:__ _Coding Dojo, Kata, Code Breaker, TDD (Test Driven Development), BDD (Behavior Driven Development), Jasmine, QUnit, JQuery, JQuery Mobile, Firefox OS (FxOs), Mobile Devices, HTML5, CSS, Javascript, i18n, l10n, resolution awareness, Touch Events vs. Mouse Events_
 
-Online Usage
-------------
-
-* see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
-    * online version [Code Breaker 4.6 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
-    * published in [Firefox Marketplace](https://marketplace.firefox.com/app/cbreaker46)
-* see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
-    *  online version [Code Breaker 5.10 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
-
 Click icons for direct online usage
 
 | <a href="http://omerkel.github.io/codebreaker/html5/src/"><img height="128" alt="Start Code Breaker online" src="http://omerkel.github.io/codebreaker/html5/src/img/icons/codebreaker-128.png" /></a> | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html"><img height="128" alt="Start Code Breaker 4.6 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html"><img height="128" alt="Start Code Breaker 5.10 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> |
 | --- | --- | --- |
 | <a href="http://omerkel.github.io/codebreaker/html5/src/">Start Code Breaker online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html">Start Code Breaker 4.6 Vanilla online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html">Start Code Breaker 5.10 Vanilla online</a> |
 
-* check https://marketplace.firefox.com/app/cbreaker46
+* see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
+    * online version [Code Breaker 4.6 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
+    * published in [Firefox Marketplace](https://marketplace.firefox.com/app/cbreaker46)
+* see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
+    *  online version [Code Breaker 5.10 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
 
 Tested to run on Firefox Desktop (Windows and Linux), Firefox OS (Geeksphone Keon, Geeksphone Peak), Firefox for Android (Tablet and Phone), Windows Phone 8.
 
