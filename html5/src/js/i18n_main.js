@@ -31,6 +31,12 @@ function I18n() {
     'about' : {
       'de-de' : '&Uuml;ber',
       'en-us' : 'About' },
+    'about-title' : {
+      'de-de' : '&Uuml;ber Code Breaker',
+      'en-us' : 'About Code Breaker' },
+    'legal-title' : {
+      'de-de' : 'Rechtliches',
+      'en-us' : 'Legal' },
     'languageselection' : {
       'de-de' : 'Sprachauswahl',
       'en-us' : 'Language selection' },
@@ -61,38 +67,37 @@ function I18n() {
           "Software-Bibliotheken von Dritten, die unter " +
           "freien Software-Lizenzen stehen.</p>" +
         "<h3>Regeln</h3>" +
-        "<p>The rules of <i>Code Breaker</i> are as follows.</p>" +
+        "<p>Dies sind die Regeln zu <i>Code Breaker</i> im Einzelnen.</p>" +
         "<ul>" +
-          "<li>Iteratively a guess is stated to be " +
-            "compared towards a secret four digit " +
-            "code with six possible values per digit " +
-            "(letters from <b>a</b> to <b>f</b>).</li>" +
-          "<li>Objective is to match the secret " +
-            "code perfectly.</li>" +
-          "<li>On each guess a result indicates the " +
-            "amount of perfect matches and imperfect " +
-            "matches represented as numerical values." +
+          "<li>Wiederholte Rateversuche werden mit " +
+            "einem geheimen Code fester Zahl von Stellen " +
+            "und ausgesuchter Anzahl Werte pro Stelle " +
+            "verglichen (wie unter dem Men&uuml; " +
+            "<i>Einstellungen</i> ausgew&auml;hlt).</li>" +
+          "<li>Ziel ist es, eine perfekte &Uuml;bereinstimmung " +
+            "mit dem geheimen Code zu erreichen.</li>" +
+          "<li>Bei jedem Rateversuch wird das Ergebnis als " +
+            "Anzahl perfekter &Uuml;bereinstimmungen und unperfekten " +
+            "&Uuml;bereinstimmungen als Zahlenwerte angezeigt." +
             "<ul>" +
-              "<li>Perfect matches indicate that a " +
-                "digit is included in the secret " +
-                "and is placed at correct position " +
-                "within the guess.</li>" +
-              "<li>Imperfect matches indicate that " +
-                "a digit is included in the secret " +
-                "but the position is still " +
-                "incorrect.</li>" +
+              "<li>Perfekte &Uuml;bereinstimmungen zeigen, dass " +
+                "eine Stelle mit ihrem Wert im geheimen Code vorkommt " +
+                "und auch im Rateversuch korrekt positioniert ist.</li>" +
+              "<li>Unperfekte &Uuml;bereinstimmungen zeigen, dass " +
+                "eine Stelle mit ihrem Wert im geheimen Code vorkommt, " +
+                "aber die Position im Rateversuch noch nicht stimmt.</li>" +
             "</ul>" +
           "</li>" +
-          "<li>Thus the secret code is found if " +
-            "four perfect matches and no imperfect " +
-            "match are indicated on a check.</li>" +
-          "<li>Digit values may occur multiple " +
-            "times. No digit of the guess will count " +
-            "multiple times in the indicated result. " +
-            "Indicating perfect matches over " +
-            "imperfect ones is prioritized. Previous " +
-            "check results are kept visible " +
-            "in a log to use for analysis.</li>" +
+          "<li>Damit gilt der geheime Code als gefunden, sobald " +
+            "alle Stellen als perfekte &Uuml;bereinstimmungen und " +
+            "ohne unperfekte &Uuml;bereinstimmungen angezeigt werden.</li>" +
+          "<li>Gleiche Werte k&ouml;nnen mehrfach vorkommen. " +
+            "Keine Stelle des Rateversuchs wird mehrfach im " +
+            "angezeigten Ergebnis ausgewertet. Anzeige " +
+            "einer perfekten &Uuml;bereinstimmung hat dabei " +
+            "Vorrang gegen&uuml;ber unperfekter &Uuml;bereinstimmung. " +
+            "Vorherige ausgewertete Ergebnisse bleiben im Spiel als " +
+            "Liste zur weiteren Analyse sichtbar.</li>" +
         "</ul>",
       'en-us' :
         "<p><b>Code Breaker</b> is derived from a " +
@@ -110,10 +115,11 @@ function I18n() {
         "<h3>Rules</h3>" +
         "<p>The rules of <i>Code Breaker</i> are as follows.</p>" +
         "<ul>" +
-          "<li>Iteratively a guess is stated to be " +
-            "compared towards a secret four digit " +
-            "code with six possible values per digit " +
-            "(letters from <b>a</b> to <b>f</b>).</li>" +
+          "<li>Iteratively a guess is " +
+            "compared towards a secret code with " +
+            "fixed length of digits and selected " +
+            "amount of possible values per digit " +
+            "(as configured in <i>options</i> menu).</li>" +
           "<li>Objective is to match the secret " +
             "code perfectly.</li>" +
           "<li>On each guess a result indicates the " +
@@ -121,19 +127,18 @@ function I18n() {
             "matches represented as numerical values." +
             "<ul>" +
               "<li>Perfect matches indicate that a " +
-                "digit is included in the secret " +
+                "digit value is included in the secret " +
                 "and is placed at correct position " +
                 "within the guess.</li>" +
               "<li>Imperfect matches indicate that " +
-                "a digit is included in the secret " +
-                "but the position is still " +
-                "incorrect.</li>" +
+                "a digit value is included in the secret " +
+                "but the position is still incorrect.</li>" +
             "</ul>" +
           "</li>" +
           "<li>Thus the secret code is found if " +
-            "four perfect matches and no imperfect " +
-            "match are indicated on a check.</li>" +
-          "<li>Digit values may occur multiple " +
+            "all digits are perfect matches and no " +
+            "imperfect match are indicated on a check.</li>" +
+          "<li>Same values may occur multiple " +
             "times. No digit of the guess will count " +
             "multiple times in the indicated result. " +
             "Indicating perfect matches over " +
