@@ -4,6 +4,12 @@
   padding: 30px 12.5px 4px 12.5px;
 }
 
+.logdigit {
+  width: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
 figure {
   border: 1px solid #aaa;
   border-radius: 8px;
