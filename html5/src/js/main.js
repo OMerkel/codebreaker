@@ -34,12 +34,16 @@ function render() {
 
 function renderLog() {
   var result = secret.compare(guess);
-  var logEntry = '<li class="ui-li ui-li-static ui-btn-up-c ui-li-last" style="padding-top: 0; padding-bottom: 0;">';
+  var logEntry = '<li class="ui-li ui-li-static ui-btn-up-c ui-li-last" ';
+  logEntry += 'style="padding-top: 0; padding-bottom: 0;">';
   logEntry += '<p class="ui-li-aside ui-li-desc" style="top: 2px;">';
   logEntry += 'perfect <strong>' + result[0] + '</strong> / ';
   logEntry += 'imperfect <strong>' + result[1] + '</strong></p>';
-  logEntry += '<h3 class="ui-li-heading" style="margin: 0;">' + guess + '</h3>';
-  logEntry += '</li>';
+  logEntry += '<h3 class="ui-li-heading" style="margin: 0;">';
+  for(i=0; i<guess.length; ++i) {
+    logEntry += "<span class='logdigit'>" + guess[i] + '</span>';
+  };
+  logEntry += '</h3></li>';
   $('#log').prepend(logEntry);
 }
 
