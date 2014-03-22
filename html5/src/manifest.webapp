@@ -11,7 +11,8 @@
 		"64": "/img/icons/codebreaker-64.png",
 		"90": "/img/icons/codebreaker-90.png",
 		"120": "/img/icons/codebreaker-120.png",
-		"128": "/img/icons/codebreaker-128.png"
+		"128": "/img/icons/codebreaker-128.png",
+		"256": "/img/icons/codebreaker-256.png"
 	},
 	"developer": {
 		"name": "Oliver Merkel",

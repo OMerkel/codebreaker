@@ -8,6 +8,7 @@ img/icons/cc-by-nc-nd.png
 img/icons/codebreaker-120.png
 img/icons/codebreaker-128.png
 img/icons/codebreaker-16.png
+img/icons/codebreaker-256.png
 img/icons/codebreaker-32.png
 img/icons/codebreaker-48.png
 img/icons/codebreaker-60.png
@@ -16,6 +17,7 @@ img/icons/codebreaker-90.png
 img/icons/favicon.ico
 img/oliver.jpg
 index.html
+js/bdd-jasmine.js
 js/i18n_main.js
 js/jasmine-spec/secret_spec.js
 js/jasmine-wrapper.js
@@ -23,6 +25,7 @@ js/main.js
 js/qunit-spec/secret_spec.js
 js/secret.js
 js/secretgenerator.js
+js/testonspecification.js
 LICENSE
 MIT-LICENSE.txt
 testonspecification.html
