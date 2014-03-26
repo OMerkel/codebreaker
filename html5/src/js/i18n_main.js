@@ -1,56 +1,24 @@
 
 function I18n() {
   this.data = {
-    'menu' : {
-      'de-de' : 'Men&uuml;',
-      'en-us' : 'Menu'},
-    'selectmenuentry' : {
-      'de-de' : 'Men&uuml;eintrag w&auml;hlen',
-      'en-us' : 'Select menu entry'},
-    'checking' : {
-      'de-de' : 'Pr&uuml;fen',
-      'en-us' : 'Check' },
-    'new' : {
-      'de-de' : 'Neu',
-      'en-us' : 'New' },
-    'license' : {
-      'de-de' : 'Lizensierung',
-      'en-us' : 'License' },
-    'testing' : {
-      'de-de' : 'Testen',
-      'en-us' : 'Testing' },
-    'environment' : {
-      'de-de' : 'W&auml;hle eine Testumgebung',
-      'en-us' : 'Choose a test environment' },
-    'menu-options' : {
-      'de-de' : 'Einstellungen',
-      'en-us' : 'Settings' },
-    'options' : {
-      'de-de' : 'Einstellungen',
-      'en-us' : 'Settings' },
-    'about' : {
-      'de-de' : '&Uuml;ber',
-      'en-us' : 'About' },
-    'about-title' : {
-      'de-de' : '&Uuml;ber Code Breaker',
-      'en-us' : 'About Code Breaker' },
-    'legal-title' : {
-      'de-de' : 'Rechtliches',
-      'en-us' : 'Legal' },
-    'languageselection' : {
-      'de-de' : 'Sprachauswahl',
-      'en-us' : 'Language selection' },
-    'codesize' : {
-      'de-de' : 'Gr&ouml;&szlig;e der Codes',
-      'en-us' : 'Code size' },
-    'digits4letters6' : {
-      'de-de' : '4 Stellen mit 6 Werten',
-      'en-us' : '4 digits w/ 6 letters' },
-    'digits5letters10' : {
-      'de-de' : '5 Stellen mit 10 Werten',
-      'en-us' : '5 digits w/ 10 letters' },
-    'about_text' : {
-      'de-de' :
+    'de-de' : {
+      'menu' : 'Men&uuml;',
+      'selectmenuentry' : 'Men&uuml;eintrag w&auml;hlen',
+      'checking' : 'Pr&uuml;fen',
+      'new' : 'Neu',
+      'license' : 'Lizensierung',
+      'testing' : 'Testen',
+      'environment' : 'W&auml;hle eine Testumgebung',
+      'menu-options' : 'Einstellungen',
+      'options' : 'Einstellungen',
+      'about' : '&Uuml;ber',
+      'about-title' : '&Uuml;ber Code Breaker',
+      'legal-title' : 'Rechtliches',
+      'languageselection' : 'Sprachauswahl',
+      'codesize' : 'Gr&ouml;&szlig;e der Codes',
+      'digits4letters6' : '4 Stellen mit 6 Werten',
+      'digits5letters10' : '5 Stellen mit 10 Werten',
+      'about_text' :
         "<p><b>Code Breaker</b> ist eine Abwandlung " +
           "eines Spiels unbekannten Ursprungs namens " +
           "<i>Bulls and Cows</i> (<i>Bullen und " +
@@ -99,7 +67,25 @@ function I18n() {
             "Vorherige ausgewertete Ergebnisse bleiben im Spiel als " +
             "Liste zur weiteren Analyse sichtbar.</li>" +
         "</ul>",
-      'en-us' :
+    },
+    'en-us' : {
+      'menu' : 'Menu',
+      'selectmenuentry' : 'Select menu entry',
+      'checking' : 'Check',
+      'new' : 'New',
+      'license' : 'License',
+      'testing' : 'Testing',
+      'environment' : 'Choose a test environment',
+      'menu-options' : 'Settings',
+      'options' : 'Settings',
+      'about' : 'About',
+      'about-title' : 'About Code Breaker',
+      'legal-title' : 'Legal',
+      'languageselection' : 'Language selection',
+      'codesize' : 'Code size',
+      'digits4letters6' : '4 digits w/ 6 letters',
+      'digits5letters10' : '5 digits w/ 10 letters',
+      'about_text' :
         "<p><b>Code Breaker</b> is derived from a " +
           "game called <i>Bulls and Cows</i> of unknown " +
           "origin. It's game principle is public domain. " +
@@ -145,14 +131,211 @@ function I18n() {
             "imperfect ones is prioritized. Previous " +
             "check results are kept visible " +
             "in a log to use for analysis.</li>" +
-        "</ul>" },
+        "</ul>",
+    },
+    'fr-fr' : {
+      'menu' : 'Menu',
+      'selectmenuentry' : 'S&eacute;lectionnez une option de menu',
+      'checking' : 'Tester',
+      'new' : 'Nouveau',
+      'license' : 'Licence',
+      'testing' : 'Tester',
+      'environment' : 'Choisissez un environnement de test',
+      'menu-options' : 'Param&eacute;trage',
+      'options' : 'Param&eacute;trage',
+      'about' : 'A propos',
+      'about-title' : 'A propos Code Breaker',
+      'legal-title' : 'Juridique',
+      'languageselection' : 'Choisir de langue',
+      'codesize' : 'Taille du code',
+      'digits4letters6' : '4 chiffres de 6 valeurs',
+      'digits5letters10' : '5 chiffres de 10 valeurs',
+      'about_text' :
+        "<p><b>Code Breaker</b> is derived from a " +
+          "game called <i>Bulls and Cows</i> of unknown " +
+          "origin. It's game principle is public domain. " +
+          "There are commercial versions of <i>Bulls and " +
+          "Cows</i> from other parties using different " + 
+          "names or trademarks being published and " +
+          "being available as well. <i>Code Breaker</i> " +
+          "is MIT licensed and just uses the public " +
+          "domain principle of the game <i>Bulls and " +
+          "Cows</i>. It comes bundled with unmodified " +
+          "third party software libraries using free " +
+          "software licensing.</p>" +
+        "<h3>Rules</h3>" +
+        "<p>The rules of <i>Code Breaker</i> are as follows.</p>" +
+        "<ul>" +
+          "<li>Iteratively a guess is " +
+            "compared towards a secret code with " +
+            "fixed length of digits and selected " +
+            "amount of possible values per digit " +
+            "(as configured in <i>options</i> menu).</li>" +
+          "<li>Objective is to match the secret " +
+            "code perfectly.</li>" +
+          "<li>On each guess a result indicates the " +
+            "amount of perfect matches and imperfect " +
+            "matches represented as numerical values." +
+            "<ul>" +
+              "<li>Perfect matches indicate that a " +
+                "digit value is included in the secret " +
+                "and is placed at correct position " +
+                "within the guess.</li>" +
+              "<li>Imperfect matches indicate that " +
+                "a digit value is included in the secret " +
+                "but the position is still incorrect.</li>" +
+            "</ul>" +
+          "</li>" +
+          "<li>Thus the secret code is found if " +
+            "all digits are perfect matches and no " +
+            "imperfect match are indicated on a check.</li>" +
+          "<li>Same values may occur multiple " +
+            "times. No digit of the guess will count " +
+            "multiple times in the indicated result. " +
+            "Indicating perfect matches over " +
+            "imperfect ones is prioritized. Previous " +
+            "check results are kept visible " +
+            "in a log to use for analysis.</li>" +
+        "</ul>",
+    },
+    'es-es' : {
+      'menu' : 'Men&uacute;',
+      'selectmenuentry' : 'Seleccione la entrada de men&uacute;',
+      'checking' : 'Comprobar',
+      'new' : 'Nuevo',
+      'license' : 'Licencia',
+      'testing' : 'Pruebas',
+      'environment' : 'Elija un entorno de prueba',
+      'menu-options' : 'Par&aacute;metros',
+      'options' : 'Par&aacute;metros',
+      'about' : 'Sobre',
+      'about-title' : 'Sobre Code Breaker',
+      'legal-title' : 'Jur&iacute;dico',
+      'languageselection' : 'Selecci&oacute;n de idioma',
+      'codesize' : 'Tama&ntilde;o del c&oacute;digo',
+      'digits4letters6' : '4 d&iacute;gitos con 6 valores',
+      'digits5letters10' : '5 d&iacute;gitos con 10 valores',
+      'about_text' :
+        "<p><b>Code Breaker</b> is derived from a " +
+          "game called <i>Bulls and Cows</i> of unknown " +
+          "origin. It's game principle is public domain. " +
+          "There are commercial versions of <i>Bulls and " +
+          "Cows</i> from other parties using different " + 
+          "names or trademarks being published and " +
+          "being available as well. <i>Code Breaker</i> " +
+          "is MIT licensed and just uses the public " +
+          "domain principle of the game <i>Bulls and " +
+          "Cows</i>. It comes bundled with unmodified " +
+          "third party software libraries using free " +
+          "software licensing.</p>" +
+        "<h3>Rules</h3>" +
+        "<p>The rules of <i>Code Breaker</i> are as follows.</p>" +
+        "<ul>" +
+          "<li>Iteratively a guess is " +
+            "compared towards a secret code with " +
+            "fixed length of digits and selected " +
+            "amount of possible values per digit " +
+            "(as configured in <i>options</i> menu).</li>" +
+          "<li>Objective is to match the secret " +
+            "code perfectly.</li>" +
+          "<li>On each guess a result indicates the " +
+            "amount of perfect matches and imperfect " +
+            "matches represented as numerical values." +
+            "<ul>" +
+              "<li>Perfect matches indicate that a " +
+                "digit value is included in the secret " +
+                "and is placed at correct position " +
+                "within the guess.</li>" +
+              "<li>Imperfect matches indicate that " +
+                "a digit value is included in the secret " +
+                "but the position is still incorrect.</li>" +
+            "</ul>" +
+          "</li>" +
+          "<li>Thus the secret code is found if " +
+            "all digits are perfect matches and no " +
+            "imperfect match are indicated on a check.</li>" +
+          "<li>Same values may occur multiple " +
+            "times. No digit of the guess will count " +
+            "multiple times in the indicated result. " +
+            "Indicating perfect matches over " +
+            "imperfect ones is prioritized. Previous " +
+            "check results are kept visible " +
+            "in a log to use for analysis.</li>" +
+        "</ul>",
+    },
+    'pt-pt' : {
+      'menu' : 'Menu',
+      'selectmenuentry' : 'Escolha uma op&ccedil;&atilde;o de menu',
+      'checking' : 'Checar',
+      'new' : 'Novo',
+      'license' : 'Licen&ccedil;a',
+      'testing' : 'Prova',
+      'environment' : 'Escolha um ambiente de teste',
+      'menu-options' : 'Par&acirc;metros',
+      'options' : 'Par&acirc;metros',
+      'about' : 'Sobre',
+      'about-title' : 'Sobre Code Breaker',
+      'legal-title' : 'Jur&iacute;dico',
+      'languageselection' : 'Selec&ccedil;&atilde;o do idioma',
+      'codesize' : 'Tamanho do c&oacute;digo',
+      'digits4letters6' : '4 d&iacute;gitos com 6 valores',
+      'digits5letters10' : '5 d&iacute;gitos com 10 valores',
+      'about_text' :
+        "<p><b>Code Breaker</b> is derived from a " +
+          "game called <i>Bulls and Cows</i> of unknown " +
+          "origin. It's game principle is public domain. " +
+          "There are commercial versions of <i>Bulls and " +
+          "Cows</i> from other parties using different " + 
+          "names or trademarks being published and " +
+          "being available as well. <i>Code Breaker</i> " +
+          "is MIT licensed and just uses the public " +
+          "domain principle of the game <i>Bulls and " +
+          "Cows</i>. It comes bundled with unmodified " +
+          "third party software libraries using free " +
+          "software licensing.</p>" +
+        "<h3>Rules</h3>" +
+        "<p>The rules of <i>Code Breaker</i> are as follows.</p>" +
+        "<ul>" +
+          "<li>Iteratively a guess is " +
+            "compared towards a secret code with " +
+            "fixed length of digits and selected " +
+            "amount of possible values per digit " +
+            "(as configured in <i>options</i> menu).</li>" +
+          "<li>Objective is to match the secret " +
+            "code perfectly.</li>" +
+          "<li>On each guess a result indicates the " +
+            "amount of perfect matches and imperfect " +
+            "matches represented as numerical values." +
+            "<ul>" +
+              "<li>Perfect matches indicate that a " +
+                "digit value is included in the secret " +
+                "and is placed at correct position " +
+                "within the guess.</li>" +
+              "<li>Imperfect matches indicate that " +
+                "a digit value is included in the secret " +
+                "but the position is still incorrect.</li>" +
+            "</ul>" +
+          "</li>" +
+          "<li>Thus the secret code is found if " +
+            "all digits are perfect matches and no " +
+            "imperfect match are indicated on a check.</li>" +
+          "<li>Same values may occur multiple " +
+            "times. No digit of the guess will count " +
+            "multiple times in the indicated result. " +
+            "Indicating perfect matches over " +
+            "imperfect ones is prioritized. Previous " +
+            "check results are kept visible " +
+            "in a log to use for analysis.</li>" +
+        "</ul>",
+    },
   };
 }
 
 I18n.prototype.setLanguage = function(language) {
   this.language=language;
-  for(var msgId in this.data)
-    document.getElementById(msgId).innerHTML = this.data[msgId][language];
+  var languageData=this.data[language]
+  for(var msgId in languageData)
+    document.getElementById(msgId).innerHTML = languageData[msgId];
 };
 
 translator = new I18n();
@@ -160,3 +343,6 @@ translator.setLanguage('en-us');
 
 $('#radio-de-de').click(function() { translator.setLanguage('de-de'); });
 $('#radio-en-usuk').click(function() { translator.setLanguage('en-us'); });
+$('#radio-es-es').click(function() { translator.setLanguage('es-es'); });
+$('#radio-fr-fr').click(function() { translator.setLanguage('fr-fr'); });
+$('#radio-pt-pt').click(function() { translator.setLanguage('pt-pt'); });
