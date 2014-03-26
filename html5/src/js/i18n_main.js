@@ -1,88 +1,24 @@
 
 function I18n() {
   this.data = {
-    'menu' : {
-      'de-de' : 'Men&uuml;',
-      'en-us' : 'Menu',
-      'fr-fr' : 'Menu',
-    },
-    'selectmenuentry' : {
-      'de-de' : 'Men&uuml;eintrag w&auml;hlen',
-      'en-us' : 'Select menu entry',
-      'fr-fr' : 'S&eacute;lectionnez une option de menu',
-    },
-    'checking' : {
-      'de-de' : 'Pr&uuml;fen',
-      'en-us' : 'Check',
-      'fr-fr' : 'Tester',
-    },
-    'new' : {
-      'de-de' : 'Neu',
-      'en-us' : 'New',
-      'fr-fr' : 'Nouveau',
-    },
-    'license' : {
-      'de-de' : 'Lizensierung',
-      'en-us' : 'License',
-      'fr-fr' : 'Licence',
-    },
-    'testing' : {
-      'de-de' : 'Testen',
-      'en-us' : 'Testing',
-      'fr-fr' : 'Tester',
-    },
-    'environment' : {
-      'de-de' : 'W&auml;hle eine Testumgebung',
-      'en-us' : 'Choose a test environment',
-      'fr-fr' : 'Choisissez un environnement de test',
-    },
-    'menu-options' : {
-      'de-de' : 'Einstellungen',
-      'en-us' : 'Settings',
-      'fr-fr' : 'Param&eacute;trage',
-    },
-    'options' : {
-      'de-de' : 'Einstellungen',
-      'en-us' : 'Settings',
-      'fr-fr' : 'Param&eacute;trage',
-    },
-    'about' : {
-      'de-de' : '&Uuml;ber',
-      'en-us' : 'About',
-      'fr-fr' : 'A propos',
-    },
-    'about-title' : {
-      'de-de' : '&Uuml;ber Code Breaker',
-      'en-us' : 'About Code Breaker',
-      'fr-fr' : 'A propos Code Breaker',
-    },
-    'legal-title' : {
-      'de-de' : 'Rechtliches',
-      'en-us' : 'Legal',
-      'fr-fr' : 'Juridique',
-    },
-    'languageselection' : {
-      'de-de' : 'Sprachauswahl',
-      'en-us' : 'Language selection',
-      'fr-fr' : 'Choisir de langue',
-    },
-    'codesize' : {
-      'de-de' : 'Gr&ouml;&szlig;e der Codes',
-      'en-us' : 'Code size',
-      'fr-fr' : 'Taille du code',
-    },
-    'digits4letters6' : {
-      'de-de' : '4 Stellen mit 6 Werten',
-      'en-us' : '4 digits w/ 6 letters',
-      'fr-fr' : '4 chiffres de 6 valeurs',
-    },
-    'digits5letters10' : {
-      'de-de' : '5 Stellen mit 10 Werten',
-      'en-us' : '5 digits w/ 10 letters',
-      'fr-fr' : '5 chiffres de 10 valeurs',
-    },
-    'about_text' : {
-      'de-de' :
+    'de-de' : {
+      'menu' : 'Men&uuml;',
+      'selectmenuentry' : 'Men&uuml;eintrag w&auml;hlen',
+      'checking' : 'Pr&uuml;fen',
+      'new' : 'Neu',
+      'license' : 'Lizensierung',
+      'testing' : 'Testen',
+      'environment' : 'W&auml;hle eine Testumgebung',
+      'menu-options' : 'Einstellungen',
+      'options' : 'Einstellungen',
+      'about' : '&Uuml;ber',
+      'about-title' : '&Uuml;ber Code Breaker',
+      'legal-title' : 'Rechtliches',
+      'languageselection' : 'Sprachauswahl',
+      'codesize' : 'Gr&ouml;&szlig;e der Codes',
+      'digits4letters6' : '4 Stellen mit 6 Werten',
+      'digits5letters10' : '5 Stellen mit 10 Werten',
+      'about_text' :
         "<p><b>Code Breaker</b> ist eine Abwandlung " +
           "eines Spiels unbekannten Ursprungs namens " +
           "<i>Bulls and Cows</i> (<i>Bullen und " +
@@ -131,7 +67,25 @@ function I18n() {
             "Vorherige ausgewertete Ergebnisse bleiben im Spiel als " +
             "Liste zur weiteren Analyse sichtbar.</li>" +
         "</ul>",
-      'en-us' :
+    },
+    'en-us' : {
+      'menu' : 'Menu',
+      'selectmenuentry' : 'Select menu entry',
+      'checking' : 'Check',
+      'new' : 'New',
+      'license' : 'License',
+      'testing' : 'Testing',
+      'environment' : 'Choose a test environment',
+      'menu-options' : 'Settings',
+      'options' : 'Settings',
+      'about' : 'About',
+      'about-title' : 'About Code Breaker',
+      'legal-title' : 'Legal',
+      'languageselection' : 'Language selection',
+      'codesize' : 'Code size',
+      'digits4letters6' : '4 digits w/ 6 letters',
+      'digits5letters10' : '5 digits w/ 10 letters',
+      'about_text' :
         "<p><b>Code Breaker</b> is derived from a " +
           "game called <i>Bulls and Cows</i> of unknown " +
           "origin. It's game principle is public domain. " +
@@ -178,7 +132,25 @@ function I18n() {
             "check results are kept visible " +
             "in a log to use for analysis.</li>" +
         "</ul>",
-      'fr-fr' :
+    },
+    'fr-fr' : {
+      'menu' : 'Menu',
+      'selectmenuentry' : 'S&eacute;lectionnez une option de menu',
+      'checking' : 'Tester',
+      'new' : 'Nouveau',
+      'license' : 'Licence',
+      'testing' : 'Tester',
+      'environment' : 'Choisissez un environnement de test',
+      'menu-options' : 'Param&eacute;trage',
+      'options' : 'Param&eacute;trage',
+      'about' : 'A propos',
+      'about-title' : 'A propos Code Breaker',
+      'legal-title' : 'Juridique',
+      'languageselection' : 'Choisir de langue',
+      'codesize' : 'Taille du code',
+      'digits4letters6' : '4 chiffres de 6 valeurs',
+      'digits5letters10' : '5 chiffres de 10 valeurs',
+      'about_text' :
         "<p><b>Code Breaker</b> is derived from a " +
           "game called <i>Bulls and Cows</i> of unknown " +
           "origin. It's game principle is public domain. " +
@@ -231,8 +203,9 @@ function I18n() {
 
 I18n.prototype.setLanguage = function(language) {
   this.language=language;
-  for(var msgId in this.data)
-    document.getElementById(msgId).innerHTML = this.data[msgId][language];
+  var languageData=this.data[language]
+  for(var msgId in languageData)
+    document.getElementById(msgId).innerHTML = languageData[msgId];
 };
 
 translator = new I18n();
