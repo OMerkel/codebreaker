@@ -1,5 +1,5 @@
 {
-	"version": "1.1",
+	"version": "1.2",
 	"name": "CodeBreaker",
 	"description": "Code Breaker",
 	"launch_path": "/index.html",
@@ -21,6 +21,24 @@
 	"installs_allowed_from": ["*"],
 	"locales": {
 		"de": {
+			"description": "Code Breaker",
+			"developer": {
+				"url": "https://github.com/OMerkel"
+			}
+		},
+		"es": {
+			"description": "Code Breaker",
+			"developer": {
+				"url": "https://github.com/OMerkel"
+			}
+		},
+		"fr": {
+			"description": "Code Breaker",
+			"developer": {
+				"url": "https://github.com/OMerkel"
+			}
+		},
+		"pt": {
 			"description": "Code Breaker",
 			"developer": {
 				"url": "https://github.com/OMerkel"
