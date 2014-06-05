@@ -9,9 +9,11 @@ Click icons for direct online usage
 | --- | --- | --- |
 | <a href="http://omerkel.github.io/codebreaker/html5/src/">Start Code Breaker online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html">Start Code Breaker 4.6 Vanilla online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html">Start Code Breaker 5.10 Vanilla online</a> |
 
+* see <b>[releases/tag/release_1.2](https://github.com/OMerkel/codebreaker/releases/tag/release_1.2)</b>
+    * published in <a href="https://marketplace.firefox.com/app/codebreaker"><img alt='Firefox Marketplace' src="html5/res/img/marketplace_logo.png" width="128" /></a>
 * see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
     * online version [Code Breaker 4.6 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
-    * published in [Firefox Marketplace](https://marketplace.firefox.com/app/cbreaker46)
+    * published in <a href="https://marketplace.firefox.com/app/cbreaker46"><img alt='Firefox Marketplace' src="html5/res/img/marketplace_logo.png" width="128" /></a>
 * see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
     *  online version [Code Breaker 5.10 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
 
