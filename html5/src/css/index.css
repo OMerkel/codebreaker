@@ -1,7 +1,41 @@
 
-.mybutton {
-  font-size: 78%;
-  padding: 30px 12.5px 4px 12.5px;
+.select_button{
+  background: url(../img/icons/icon-plus.svg) 50% 10% no-repeat;
+  background-size: 24px 24px;
+  padding: 32px 0px 0px 0px;
+  width: 25px;
+  font-size: 16px;
+}
+
+.select_button_wide{
+  background: url(../img/icons/icon-plus.svg) 50% 10% no-repeat;
+  background-size: 24px 24px;
+  padding: 32px 0px 0px 0px;
+  width: 25px;
+  font-size: 16px;
+}
+
+.digit_button{
+  background: url(../img/icons/icon-delete.svg) 50% 10% no-repeat;
+  background-size: 24px 24px;
+  padding: 32px 0px 0px 0px;
+  width: 25px;
+  font-size: 16px;
+}
+
+.ui-content {
+  padding-top: 0em;
+  padding-right-value: 0em;
+  padding-bottom: 1em;
+  padding-left-value: 0em;
+  padding-left-ltr-source: physical;
+  padding-left-rtl-source: physical;
+  padding-right-ltr-source: physical;
+  padding-right-rtl-source: physical;
+}
+
+.ui-corner-all {
+  border-radius: 10px 10px;
 }
 
 .logdigit {
@@ -37,4 +71,3 @@ figcaption {
   padding: 2px;
   width: 100%;
 }
-

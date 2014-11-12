@@ -1,3 +1,9 @@
+//
+// Copyright (c) 2014 Oliver Merkel
+// All rights reserved.
+//
+// @author Oliver Merkel, <Merkel(dot)Oliver(at)web(dot)de>
+//
 
 var secret, digits, values;
 
@@ -11,24 +17,25 @@ function type(key) {
 
 function render() {
   var lowRes = (window.innerWidth < 350) || (window.innerHeight< 350);
-  for(var digit=0; digit<guess.length; digit++) {
-    $('#digit' + digit).html(EMPTY == guess[digit] ? '&nbsp;': guess[digit]);
+  for(var digit=0; digit<digits; digit++) {
+    $('#guess_digit_' + digits + '_' + digit).html(EMPTY == guess[digit] ?
+      '&nbsp;': guess[digit]);
   }
   if( -1 == guess.indexOf(EMPTY) ) {
     if(lowRes) {
-      $('#code_keys').hide(1000);
+      $('#code_keys_' + values).hide(1000);
     }
     $('#check').show();
   } else {
-    $('#code_keys').show(1000);
+    $('#code_keys_' + values).show(1000);
     $('#check').hide();
   }
   if( NOGUESS.slice(0,digits) == guess ) {
     if(lowRes) {
-      $('#current_guess').hide(1000);
+      $('#guess_' + digits).hide(1000);
     }
   } else {
-    $('#current_guess').show(1000);
+    $('#guess_' + digits).show(1000);
   }
 }
 
@@ -53,29 +60,6 @@ function check() {
   }
 }
 
-function typeValue( e ) {
-  var id = e.target.id;
-  type(id[id.length-1]);
-}
-
-function setupValues() {
-  var group = $('#code_keys');
-  group.controlgroup('container').html('');
-  var ctrls = '';
-  for(var i=0; i<values; ++i) {
-    var chr = 'abcdefghijklmnopqrstuvwxyz'.charAt(i);
-    ctrls += "<a href='#' data-role='button' data-icon='plus' " +
-      "data-iconpos='top' class='mybutton' id='value_" + chr + "'>" +
-      chr + "</a>";
-  }
-  group.controlgroup('container').append(ctrls);
-  group.enhanceWithin().controlgroup('refresh');
-  for(var i=0; i<values; ++i) {
-    var chr = 'abcdefghijklmnopqrstuvwxyz'.charAt(i);
-    $('#value_' + chr).bind('click', typeValue);
-  }
-}
-
 function removeDigit( e ) {
   var id = e.target.id;
   var position = parseInt(id[id.length-1]);
@@ -84,43 +68,84 @@ function removeDigit( e ) {
   render();
 }
 
-function setupDigits() {
-  var group = $('#current_guess');
-  group.controlgroup('container').html('');
-  var ctrls = '';
-  for(var i=0; i<digits; ++i) {
-    ctrls += "<a id='guess_digit_" + i + "' data-role='button' " +
-      "data-icon='delete' data-iconpos='top' class='mybutton'>" +
-      "<span id='digit" + i + "'>&nbsp;</span></a>";
-  }
-  group.controlgroup('container').append(ctrls);
-  group.enhanceWithin().controlgroup('refresh');
-  for(var i=0; i<digits; ++i) {
-    $('#guess_digit_' + i).bind('click', removeDigit);
-  }
-}
-
 function newGame() {
-  if ( $('#radio-5digits').is(':checked') ) {
-    digits = 5;
-    values = 10;
+  var fiveDigits = $('#radio-5digits').is(':checked');
+  digits = fiveDigits ? 5 : 4;
+  values = fiveDigits ? 10 : 6;
+  if (fiveDigits) {
+    $('#code_keys_6').hide();
+    $('#guess_4').hide();
+    $('#code_keys_10').show();
+    $('#guess_5').show();
   } else {
-    digits = 4;
-    values = 6;
+    $('#code_keys_6').show();
+    $('#guess_4').show();
+    $('#code_keys_10').hide();
+    $('#guess_5').hide();
   }
   secret = new Secret((new SecretGenerator(digits, values)).secret);
   guess = NOGUESS.slice(0,digits);
   $('#log').html('');
-  setupValues();
-  setupDigits();
   render();
+  $(window).resize();
+}
+
+function typeValue( e ) {
+  var id = e.target.id.split('_');
+  if('select' == id[0]) {
+    type(id[2]);
+  }
+}
+
+function setupHandlers() {
+  for(var i=0; i<10; ++i) {
+    var chr = 'abcdefghijklmnopqrstuvwxyz'.charAt(i);
+    $('#select_10_' + chr).bind('click', typeValue);
+  }
+  for(var i=0; i<6; ++i) {
+    var chr = 'abcdefghijklmnopqrstuvwxyz'.charAt(i);
+    $('#select_6_' + chr).bind('click', typeValue);
+  }
+  for(var i=0; i<5; ++i) {
+    $('#guess_digit_5_' + i).bind('click', removeDigit);
+  }
+  for(var i=0; i<4; ++i) {
+    $('#guess_digit_4_' + i).bind('click', removeDigit);
+  }
+  $('#check').bind('click', check);
+  $('#command-new').bind('click', newGame);
+}
+
+function rescale() {
+  var innerWidth = $(window).innerWidth();
+
+  var buttonWidth = innerWidth * 0.05;
+  buttonWidth = buttonWidth < 27 ? 27 : buttonWidth;
+  $('.select_button').css('width', buttonWidth + 'px');
+  $('.select_button_wide').css('width', (buttonWidth * 1.4) + 'px');
+  $('.digit_button').css('width', (buttonWidth * 1.3) + 'px');
+
+  var backgroundSize = 0.9 * buttonWidth;
+  var backgroundSizeString = backgroundSize + 'px ' + backgroundSize + 'px';
+  $('.select_button').css('background-size', backgroundSizeString);
+  $('.select_button_wide').css('background-size', backgroundSizeString);
+  $('.digit_button').css('background-size', backgroundSizeString);
+
+  var paddingTop = backgroundSize * 1.0;
+  $('.select_button').css('padding', paddingTop + 'px 0px 0px 0px');
+  $('.select_button_wide').css('padding', paddingTop + 'px 0px 0px 0px');
+  $('.digit_button').css('padding', paddingTop + 'px 0px 0px 0px');
+
+  var fontSize = backgroundSize * 0.6;
+  $('.select_button').css('font-size', fontSize + 'px');
+  $('.select_button_wide').css('font-size', fontSize + 'px');
+  $('.digit_button').css('font-size', fontSize + 'px');
 }
 
 function initialize() {
-  $('#check').bind('click', check);
-  $('#command-new').bind('click', newGame);
+  $(window).resize(rescale);
+  setupHandlers();
   newGame();
-  render();
 }
 
 $( initialize );

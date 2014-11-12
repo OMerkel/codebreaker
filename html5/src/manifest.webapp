@@ -1,5 +1,5 @@
 {
-	"version": "1.3",
+	"version": "1.4",
 	"name": "CodeBreaker",
 	"description": "Code Breaker",
 	"launch_path": "/index.html",
@@ -38,7 +38,13 @@
 				"url": "https://github.com/OMerkel"
 			}
 		},
-		"pt": {
+		"pt-BR": {
+			"description": "Code Breaker",
+			"developer": {
+				"url": "https://github.com/OMerkel"
+			}
+		},
+		"pt-PT": {
 			"description": "Code Breaker",
 			"developer": {
 				"url": "https://github.com/OMerkel"
