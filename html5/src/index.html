@@ -51,11 +51,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
     name='viewport' />
   <link rel='stylesheet' type='text/css'
-    href='thirdparty/jquery.mobile-1.4.2/jquery.mobile-1.4.2.css' />
+    href='thirdparty/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css' />
   <link rel='stylesheet' type='text/css' href='css/index.css' />
-  <script type='text/javascript' src='thirdparty/jquery-1.11.0.js'></script>
+  <script type='text/javascript' src='thirdparty/jquery-1.11.1.js'></script>
   <script type='text/javascript'
-    src='thirdparty/jquery.mobile-1.4.2/jquery.mobile-1.4.2.js'></script>
+    src='thirdparty/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js'></script>
 
   <script type='text/javascript' src='js/secretgenerator.js'></script>
   <script type='text/javascript' src='js/secret.js'></script>
@@ -68,46 +68,53 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     <h1><small>Code Breaker</small></h1>
     <a data-icon='check' id='check'><span id='checking'>Check</span></a>
   </div><!-- /header -->
-<center>
-  <div data-role='controlgroup' data-type='horizontal' id='code_keys'>
-    <a id='selected_a' data-role='button' data-icon='plus'
-      data-iconpos='top' class='mybutton'>a</a>
-    <a id='selected_b' data-role='button' data-icon='plus'
-      data-iconpos='top' class='mybutton'>b</a>
-    <a id='selected_c' data-role='button' data-icon='plus'
-      data-iconpos='top' class='mybutton'>c</a>
-    <a id='selected_d' data-role='button' data-icon='plus'
-      data-iconpos='top' class='mybutton'>d</a>
-    <a id='selected_e' data-role='button' data-icon='plus'
-      data-iconpos='top' class='mybutton'>e</a>
-    <a id='selected_f' data-role='button' data-icon='plus'
-      data-iconpos='top' class='mybutton'>f</a>
-  </div><!-- controlgroup -->
-  <div data-role='controlgroup' data-type='horizontal' id='current_guess'>
-    <a id='guess_digit_0' data-role='button' data-icon='delete'
-      data-iconpos='top' class='mybutton'>
-      <span id='digit0'>&nbsp;</span></a>
-    <a id='guess_digit_1' data-role='button' data-icon='delete'
-      data-iconpos='top' class='mybutton'>
-      <span id='digit1'>&nbsp;</span></a>
-    <a id='guess_digit_2' data-role='button' data-icon='delete'
-      data-iconpos='top' class='mybutton'>
-      <span id='digit2'>&nbsp;</span></a>
-    <a id='guess_digit_3' data-role='button' data-icon='delete'
-      data-iconpos='top' class='mybutton'>
-      <span id='digit3'>&nbsp;</span></a>
-  </div><!-- controlgroup -->
-  <br clear='all' />
-  <div data-role='content' style='max-width: 300px;'>
-    <ul data-role='listview' id='log'>
-      <li>
-        <h3>abcd</h3>
-        <p class='ui-li-aside'>perfect <strong>0</strong><br />
-        imperfect <strong>0</strong></p>
-      </li>
-    </ul>
-  </div><!-- content -->
-</center>
+  <center>
+    <div data-role='content' id='content_panel'>
+      <div data-role='controlgroup' data-type='horizontal' id='code_keys_6'>
+        <a id='select_6_a' class='select_button_wide ui-icon-custom ui-btn ui-shadow ui-corner-all'>a</a>
+        <a id='select_6_b' class='select_button_wide ui-icon-custom ui-btn ui-shadow ui-corner-all'>b</a>
+        <a id='select_6_c' class='select_button_wide ui-icon-custom ui-btn ui-shadow ui-corner-all'>c</a>
+        <a id='select_6_d' class='select_button_wide ui-icon-custom ui-btn ui-shadow ui-corner-all'>d</a>
+        <a id='select_6_e' class='select_button_wide ui-icon-custom ui-btn ui-shadow ui-corner-all'>e</a>
+        <a id='select_6_f' class='select_button_wide ui-icon-custom ui-btn ui-shadow ui-corner-all'>f</a>
+      </div><!-- controlgroup -->
+      <div data-role='controlgroup' data-type='horizontal' id='guess_4'>
+        <a id='guess_digit_4_0' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+        <a id='guess_digit_4_1' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+        <a id='guess_digit_4_2' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+        <a id='guess_digit_4_3' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+      </div><!-- controlgroup -->
+      <div data-role='controlgroup' data-type='horizontal' id='code_keys_10'>
+        <a id='select_10_a' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>a</a>
+        <a id='select_10_b' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>b</a>
+        <a id='select_10_c' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>c</a>
+        <a id='select_10_d' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>d</a>
+        <a id='select_10_e' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>e</a>
+        <a id='select_10_f' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>f</a>
+        <a id='select_10_g' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>g</a>
+        <a id='select_10_h' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>h</a>
+        <a id='select_10_i' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>i</a>
+        <a id='select_10_j' class='select_button ui-icon-custom ui-btn ui-shadow ui-corner-all'>j</a>
+      </div><!-- controlgroup -->
+      <div data-role='controlgroup' data-type='horizontal' id='guess_5'>
+        <a id='guess_digit_5_0' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+        <a id='guess_digit_5_1' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+        <a id='guess_digit_5_2' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+        <a id='guess_digit_5_3' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+        <a id='guess_digit_5_4' class='digit_button ui-icon-custom ui-btn ui-shadow ui-corner-all'></a>
+      </div><!-- controlgroup -->
+      <div style='max-width: 300px;'>
+        <br />
+        <ul data-role='listview' id='log'>
+          <li>
+            <h3>abcd</h3>
+            <p class='ui-li-aside'>perfect <strong>0</strong><br />
+            imperfect <strong>0</strong></p>
+          </li>
+        </ul>
+      </div>
+    </div><!-- content -->
+  </center>
   <div data-role='footer' data-position='fixed' data-theme='c'>
     <div data-role='navbar' data-iconpos='top'>
       <ul>
@@ -330,7 +337,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         <a href='https://github.com/jquery/jquery-mobile' data-role='button'
           rel='external' target='_blank' type='text/html'
           title='jQuery Mobile - Repository'><img
-          src='thirdparty/jquery.mobile-1.4.2/demos/favicon.ico' />jQuery
+          src='thirdparty/jquery.mobile-1.4.5/demos/favicon.ico' />jQuery
           Mobile: MIT</a>
       </div><!-- collapsible -->
     </div><!-- collapsible-set -->
