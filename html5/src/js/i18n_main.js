@@ -1,10 +1,17 @@
+//
+// Copyright (c) 2016 Oliver Merkel
+// All rights reserved.
+//
+// @author Oliver Merkel, <Merkel(dot)Oliver(at)web(dot)de>
+//
 
 function I18n() {
   this.data = {
     'de-de' : {
       'menu' : 'Men&uuml;',
       'selectmenuentry' : 'Men&uuml;eintrag w&auml;hlen',
-      'checking' : 'Pr&uuml;fen',
+      'checking4' : 'Pr&uuml;fen',
+      'checking5' : 'Pr&uuml;fen',
       'new' : 'Neu',
       'license' : 'Lizensierung',
       'testing' : 'Testen',
@@ -71,7 +78,8 @@ function I18n() {
     'en-us' : {
       'menu' : 'Menu',
       'selectmenuentry' : 'Select menu entry',
-      'checking' : 'Check',
+      'checking4' : 'Check',
+      'checking5' : 'Check',
       'new' : 'New',
       'license' : 'License',
       'testing' : 'Testing',
@@ -136,7 +144,8 @@ function I18n() {
     'fr-fr' : {
       'menu' : 'Menu',
       'selectmenuentry' : 'S&eacute;lectionnez une option de menu',
-      'checking' : 'Tester',
+      'checking4' : 'Tester',
+      'checking5' : 'Tester',
       'new' : 'Nouveau',
       'license' : 'Licence',
       'testing' : 'Tester',
@@ -201,7 +210,8 @@ function I18n() {
     'es-es' : {
       'menu' : 'Men&uacute;',
       'selectmenuentry' : 'Seleccione la entrada de men&uacute;',
-      'checking' : 'Comprobar',
+      'checking4' : 'Comprobar',
+      'checking5' : 'Comprobar',
       'new' : 'Nuevo',
       'license' : 'Licencia',
       'testing' : 'Pruebas',
@@ -273,7 +283,8 @@ function I18n() {
     'pt-pt' : {
       'menu' : 'Menu',
       'selectmenuentry' : 'Escolha uma op&ccedil;&atilde;o de menu',
-      'checking' : 'Checar',
+      'checking4' : 'Checar',
+      'checking5' : 'Checar',
       'new' : 'Novo',
       'license' : 'Licen&ccedil;a',
       'testing' : 'Prova',
