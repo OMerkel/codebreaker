@@ -23,6 +23,23 @@
   font-size: 16px;
 }
 
+.last_digit{
+  border-right-width: 1px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.check_button{
+  background: url(../img/icons/icon-check.svg) 50% 10% no-repeat;
+  background-size: 24px 24px;
+  padding: 32px 0px 0px 0px;
+  width: 25px;
+  font-size: 16px;
+  margin-left: 5px !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
 .ui-content {
   padding-top: 0em;
   padding-right-value: 0em;

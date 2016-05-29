@@ -1,57 +1,57 @@
 {
-	"version": "1.4",
-	"name": "CodeBreaker",
-	"description": "Code Breaker",
-	"launch_path": "/index.html",
-	"icons": {
-		"16": "/img/icons/codebreaker-16.png",
-		"32": "/img/icons/codebreaker-32.png",
-		"48": "/img/icons/codebreaker-48.png",
-		"60": "/img/icons/codebreaker-60.png",
-		"64": "/img/icons/codebreaker-64.png",
-		"90": "/img/icons/codebreaker-90.png",
-		"120": "/img/icons/codebreaker-120.png",
-		"128": "/img/icons/codebreaker-128.png",
-		"256": "/img/icons/codebreaker-256.png"
-	},
-	"developer": {
-		"name": "Oliver Merkel",
-		"url": "https://github.com/OMerkel"
-	},
-	"installs_allowed_from": ["*"],
-	"locales": {
-		"de": {
-			"description": "Code Breaker",
-			"developer": {
-				"url": "https://github.com/OMerkel"
-			}
-		},
-		"es": {
-			"description": "Code Breaker",
-			"developer": {
-				"url": "https://github.com/OMerkel"
-			}
-		},
-		"fr": {
-			"description": "Code Breaker",
-			"developer": {
-				"url": "https://github.com/OMerkel"
-			}
-		},
-		"pt-BR": {
-			"description": "Code Breaker",
-			"developer": {
-				"url": "https://github.com/OMerkel"
-			}
-		},
-		"pt-PT": {
-			"description": "Code Breaker",
-			"developer": {
-				"url": "https://github.com/OMerkel"
-			}
-		}
-	},
-	"default_locale": "en",
-	"permissions": {
-	}
+  "version": "1.5",
+  "name": "CodeBreaker",
+  "description": "Code Breaker",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/codebreaker16.png",
+    "32": "/img/icons/codebreaker32.png",
+    "48": "/img/icons/codebreaker48.png",
+    "60": "/img/icons/codebreaker60.png",
+    "64": "/img/icons/codebreaker64.png",
+    "90": "/img/icons/codebreaker90.png",
+    "120": "/img/icons/codebreaker120.png",
+    "128": "/img/icons/codebreaker128.png",
+    "256": "/img/icons/codebreaker256.png"
+  },
+  "developer": {
+    "name": "Oliver Merkel",
+    "url": "https://github.com/OMerkel"
+  },
+  "installs_allowed_from": ["*"],
+  "locales": {
+    "de": {
+      "description": "Code Breaker",
+      "developer": {
+        "url": "https://github.com/OMerkel"
+      }
+    },
+    "es": {
+      "description": "Code Breaker",
+      "developer": {
+        "url": "https://github.com/OMerkel"
+      }
+    },
+    "fr": {
+      "description": "Code Breaker",
+      "developer": {
+        "url": "https://github.com/OMerkel"
+      }
+    },
+    "pt-BR": {
+      "description": "Code Breaker",
+      "developer": {
+        "url": "https://github.com/OMerkel"
+      }
+    },
+    "pt-PT": {
+      "description": "Code Breaker",
+      "developer": {
+        "url": "https://github.com/OMerkel"
+      }
+    }
+  },
+  "default_locale": "en",
+  "permissions": {
+  }
 }

@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2014 Oliver Merkel
+// Copyright (c) 2016 Oliver Merkel
 // All rights reserved.
 //
 // @author Oliver Merkel, <Merkel(dot)Oliver(at)web(dot)de>
@@ -112,7 +112,8 @@ function setupHandlers() {
   for(var i=0; i<4; ++i) {
     $('#guess_digit_4_' + i).bind('click', removeDigit);
   }
-  $('#check').bind('click', check);
+  $('#check4').bind('click', check);
+  $('#check5').bind('click', check);
   $('#command-new').bind('click', newGame);
 }
 
@@ -124,22 +125,26 @@ function rescale() {
   $('.select_button').css('width', buttonWidth + 'px');
   $('.select_button_wide').css('width', (buttonWidth * 1.4) + 'px');
   $('.digit_button').css('width', (buttonWidth * 1.3) + 'px');
+  $('.check_button').css('width', (buttonWidth * 2) + 'px');
 
   var backgroundSize = 0.9 * buttonWidth;
   var backgroundSizeString = backgroundSize + 'px ' + backgroundSize + 'px';
   $('.select_button').css('background-size', backgroundSizeString);
   $('.select_button_wide').css('background-size', backgroundSizeString);
   $('.digit_button').css('background-size', backgroundSizeString);
+  $('.check_button').css('background-size', backgroundSizeString);
 
   var paddingTop = backgroundSize * 1.0;
   $('.select_button').css('padding', paddingTop + 'px 0px 0px 0px');
   $('.select_button_wide').css('padding', paddingTop + 'px 0px 0px 0px');
   $('.digit_button').css('padding', paddingTop + 'px 0px 0px 0px');
+  $('.check_button').css('padding', (paddingTop * 1.1) + 'px 0px 0px 0px');
 
   var fontSize = backgroundSize * 0.6;
   $('.select_button').css('font-size', fontSize + 'px');
   $('.select_button_wide').css('font-size', fontSize + 'px');
   $('.digit_button').css('font-size', fontSize + 'px');
+  $('.check_button').css('font-size', (fontSize * 0.6) + 'px');
 }
 
 function initialize() {

@@ -5,19 +5,23 @@ __Keywords:__ _Coding Dojo, Kata, Code Breaker, TDD (Test Driven Development), B
 
 Click icons for direct online usage
 
-| <a href="http://omerkel.github.io/codebreaker/html5/src/"><img height="128" alt="Start Code Breaker online" src="http://omerkel.github.io/codebreaker/html5/src/img/icons/codebreaker-128.png" /></a> | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html"><img height="128" alt="Start Code Breaker 4.6 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html"><img height="128" alt="Start Code Breaker 5.10 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> |
+| <a href="http://omerkel.github.io/codebreaker/html5/src/"><img height="64" alt="Start Code Breaker online" src="http://omerkel.github.io/codebreaker/html5/src/img/icons/codebreaker-128.png" /></a> | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html"><img height="64" alt="Start Code Breaker 4.6 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html"><img height="64" alt="Start Code Breaker 5.10 Vanilla online" src="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/img/icons/codebreaker-vanilla-128.png" /></a> |
 | --- | --- | --- |
-| <a href="http://omerkel.github.io/codebreaker/html5/src/">Start Code Breaker online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html">Start Code Breaker 4.6 Vanilla online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html">Start Code Breaker 5.10 Vanilla online</a> |
+| <a href="http://omerkel.github.io/codebreaker/html5/src">Start Code Breaker online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html">Start Code Breaker 4.6 Vanilla online</a> | <a href="http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html">Start Code Breaker 5.10 Vanilla online</a> |
 
 * see <b>[releases/tag/release_1.2](https://github.com/OMerkel/codebreaker/releases/tag/release_1.2)</b>
-    * published in <a href="https://marketplace.firefox.com/app/codebreaker"><img alt='Firefox Marketplace' src="html5/res/img/marketplace_logo.png" width="128" /></a>
+    * <em>Start an online</em> <b>Code Breaker</b> <em>session on</em> http://omerkel.github.io/codebreaker/html5/src
+    * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/codebreaker"><img align="middle" width="128px" src="res/img/marketplace_logo.png" /></a>
 * see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
     * online version [Code Breaker 4.6 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
-    * published in <a href="https://marketplace.firefox.com/app/cbreaker46"><img alt='Firefox Marketplace' src="html5/res/img/marketplace_logo.png" width="128" /></a>
+    * published in <a href="https://marketplace.firefox.com/app/cbreaker46"><img alt='Firefox Marketplace' src="res/img/marketplace_logo.png" width="128" /></a>
 * see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
     *  online version [Code Breaker 5.10 Plain Vanilla](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
 
-Tested to run on Firefox Desktop (Windows and Linux), Firefox OS (Geeksphone Keon, Geeksphone Peak), Firefox for Android (Tablet and Phone), Windows Phone 8.
+<em>Runs in various browsers on</em>
+
+* <em>desktop systems like BSDs, Linux, Win, MacOS and</em>
+* <em>mobile platforms like Android, FirefoxOS, iOS.</em>
 
 __Mind:__
 * _Numbering scheme_ _if_ __4.6__ _is used in the title then this reflects that this variant shall implement secret codes of size_ __four__ _digits. Each digit is selected from a range of_ __six__ _values allowed for the guess._
