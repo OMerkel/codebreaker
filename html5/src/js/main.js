@@ -115,7 +115,15 @@ function setupHandlers() {
   $('#check4').bind('click', check);
   $('#check5').bind('click', check);
   $('#command-new').bind('click', newGame);
+  $('#mainmenu').bind('click', popupMenu);
 }
+
+function popupMenu() {
+  $('#main-menu').popup({
+    transition: 'slideup',
+    positionTo: '#mainmenu'
+  }).popup('open');
+};
 
 function rescale() {
   var innerWidth = $(window).innerWidth();

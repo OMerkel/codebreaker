@@ -103,7 +103,7 @@ function I18n() {
           "being available as well. <i>Code Breaker</i> " +
           "is MIT licensed and just uses the public " +
           "domain principle of the game <i>Bulls and " +
-          "Cows</i>. It comes bundled with unmodified " +
+          "Cows</i>. It comes bundled with " +
           "third party software libraries using free " +
           "software licensing.</p>" +
         "<h3>Rules</h3>" +
@@ -169,7 +169,7 @@ function I18n() {
           "being available as well. <i>Code Breaker</i> " +
           "is MIT licensed and just uses the public " +
           "domain principle of the game <i>Bulls and " +
-          "Cows</i>. It comes bundled with unmodified " +
+          "Cows</i>. It comes bundled with " +
           "third party software libraries using free " +
           "software licensing.</p>" +
         "<h3>Rules</h3>" +
@@ -308,7 +308,7 @@ function I18n() {
           "being available as well. <i>Code Breaker</i> " +
           "is MIT licensed and just uses the public " +
           "domain principle of the game <i>Bulls and " +
-          "Cows</i>. It comes bundled with unmodified " +
+          "Cows</i>. It comes bundled with " +
           "third party software libraries using free " +
           "software licensing.</p>" +
         "<h3>Rules</h3>" +
