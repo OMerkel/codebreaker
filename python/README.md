@@ -1,8 +1,8 @@
-Logos and trademarks belong to their respective owners.
+Logos, brands, and trademarks belong to their respective owners.
 
 __The MIT License (MIT)__
 
-Copyright (c) 2013, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
+Copyright (c) 2016, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
 
 __Follow Me__
 

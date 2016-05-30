@@ -1,9 +1,9 @@
 '''
-Logos and trademarks belong to their respective owners.
+Logos, brands, and trademarks belong to their respective owners.
 
 The MIT License (MIT)
 
-Copyright (c) 2013, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
+Copyright (c) 2016, Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de
 Follow Me
  An application to advise on guesses of Code Breaker implementations
 
