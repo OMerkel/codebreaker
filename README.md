@@ -1,13 +1,13 @@
 <img height="64" alt="Code Breaker Icon" src="html5/src/img/icons/codebreaker128.png" />&nbsp;<img height="64" alt="Code Breaker vanilla design icon" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-128.png" />Code Breaker
 ============
 
-* see <b>[latest releases](https://github.com/OMerkel/codebreaker/releases)</b>
+* See <b>[latest releases](https://github.com/OMerkel/codebreaker/releases)</b>
     * <em>Start an online</em> <b>Code Breaker</b> <em>session on</em> http://omerkel.github.io/codebreaker/html5/src
     * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/codebreaker"><img alt='Firefox Marketplace' align="middle" width="128" src="res/img/marketplace_logo.png" /></a>
-* see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
+* See <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
     * <em>Online version</em> [Code Breaker 4.6 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
     * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/cbreaker46"><img alt='Firefox Marketplace' align="middle" width="128" src="res/img/marketplace_logo.png" /></a>
-* see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
+* See <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
     *  <em>Online version</em> [Code Breaker 5.10 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
 
 <em>Runs in various browsers on</em>
