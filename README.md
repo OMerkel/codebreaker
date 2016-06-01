@@ -25,9 +25,9 @@ Abstract
 __Code Breaker__ is a synonym for a puzzle also known as [_Bulls and Cows_](http://en.wikipedia.org/wiki/Bulls_and_cows). 
 
 Besides implementing the application the objectives here are tightly focused on the related underlying development
-process and the process implementation as a proof of concept and case study. Development of the Code Breaker core
+process. The process implementation is a proof of concept and case study here. Development of the Code Breaker core
 is using development principles known as TDD (Test Driven Development) and BDD (Bahaviour Driven Development).
-Implemented Tests form a base for comparison of these principles.
+Implemented Tests form a base for comparing these principles.
 
 As an additional design goal the codes inside the game will be represented as letters only. Representation
 by colours is neglected on purpose. This is supporting users with Colour Vision Deficiency, or Colour
