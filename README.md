@@ -1,19 +1,19 @@
-<img height="64" alt="Code Breaker Icon" src="html5/src/img/icons/codebreaker128.png" /><img height="64" alt="Code Breaker vanilla design icon" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-128.png" />Code Breaker
+<img height="64" alt="Code Breaker Icon" src="html5/src/img/icons/codebreaker128.png" />&nbsp;<img height="64" alt="Code Breaker vanilla design icon" src="http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/img/icons/codebreaker-vanilla-128.png" />Code Breaker
 ============
 
 * see <b>[latest releases](https://github.com/OMerkel/codebreaker/releases)</b>
     * <em>Start an online</em> <b>Code Breaker</b> <em>session on</em> http://omerkel.github.io/codebreaker/html5/src
-    * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/codebreaker"><img align="middle" width="128px" src="res/img/marketplace_logo.png" /></a>
+    * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/codebreaker"><img alt='Firefox Marketplace' align="middle" width="128" src="res/img/marketplace_logo.png" /></a>
 * see <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
-    * online version [Code Breaker 4.6 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
-    * published in <a href="https://marketplace.firefox.com/app/cbreaker46"><img alt='Firefox Marketplace' src="res/img/marketplace_logo.png" width="128" /></a>
+    * <em>Online version</em> [Code Breaker 4.6 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
+    * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/cbreaker46"><img alt='Firefox Marketplace' align="middle" width="128" src="res/img/marketplace_logo.png" /></a>
 * see <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
-    *  online version [Code Breaker 5.10 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
+    *  <em>Online version</em> [Code Breaker 5.10 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
 
 <em>Runs in various browsers on</em>
 
-* <em>desktop systems like BSDs, Linux, Win, MacOS and</em>
-* <em>mobile platforms like Android, FirefoxOS, iOS.</em>
+* <em>Desktop systems like BSDs, Linux, Win, MacOS and</em>
+* <em>Mobile platforms like Android, FirefoxOS, iOS.</em>
 
 __Keywords:__ _Coding Dojo, Kata, Code Breaker, TDD (Test Driven Development), BDD (Behavior Driven Development), Jasmine,
 QUnit, JQuery, JQuery Mobile, Firefox OS (FxOs), Mobile Devices, HTML5, CSS, Javascript, i18n, l10n, resolution awareness,
