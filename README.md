@@ -3,12 +3,10 @@
 
 * See <b>[latest releases](https://github.com/OMerkel/codebreaker/releases)</b>
     * <em>Start an online</em> <b>Code Breaker</b> <em>session on</em> http://omerkel.github.io/codebreaker/html5/src
-    * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/codebreaker"><img alt='Firefox Marketplace' align="middle" width="128" src="res/img/marketplace_logo.png" /></a>
     * <em>Android APK available for install</em> <img align="top" width="32" src="res/android.gif" /> https://github.com/OMerkel/codebreaker/releases/tag/release_1.5
         * requires minimum Android 4.4.2 (API-19)
 * See <b>[releases/tag/release_vanilla46_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla46_1.0)</b>
     * <em>Online version</em> [Code Breaker 4.6 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker46vanilla/src/intro.html)
-    * <em>Also published in</em> <a href="https://marketplace.firefox.com/app/cbreaker46"><img alt='Firefox Marketplace' align="middle" width="128" src="res/img/marketplace_logo.png" /></a>
 * See <b>[releases/tag/release_vanilla510_1.0](https://github.com/OMerkel/codebreaker/releases/tag/release_vanilla510_1.0)</b>
     *  <em>Online version</em> [Code Breaker 5.10 Plain Vanilla design](http://omerkel.github.io/codebreaker/codebreaker510vanilla/src/intro.html)
 
